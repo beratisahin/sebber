@@ -1,6 +1,7 @@
 import './Foooter.css';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import EmailIcon from '@material-ui/icons/Email';
 import HomeIcon from '@material-ui/icons/Home';
 import SettingsPhoneIcon from '@material-ui/icons/SettingsPhone';
@@ -48,10 +49,14 @@ export default class Foooter extends Component {
                                 <p style={{color:"black"}}>Sosyal Medya</p>
                                 <a href="https://www.facebook.com/114979717021494?referrer=whatsapp" style={{float:"left"}}><FacebookIcon/></a>
                                 <a href="https://instagram.com/samsun_profesyonel_temizlik?igshid=17n1ktbi5mrbk" style={{float:"left",textIndent:"10px"}} ><  InstagramIcon/></a>
+                                <a href="https://wa.me/+905446674526" style={{float:"left",textIndent:"10px"}} ><  WhatsAppIcon/></a>
+                                <a href="tel: +905446674526" style={{float:"left",textIndent:"10px"}} ><  SettingsPhoneIcon/></a>
+                                
                                 <br/>
-                                <p style={{color:"blue",fontSize:"14px",textAlign:"left"}}> <a><EmailIcon/></a> saglamprofesyoneltemizlik@gmail.com</p>
+                                <p style={{color:"blue",fontSize:"14px",textAlign:"left"}}> <a><EmailIcon/></a>saglamprofesyoneltemizlik@gmail.com</p>
                                 <p style={{color:"blue",fontSize:"14px",textAlign:"left"}}> <a><SettingsPhoneIcon/></a> 0543 228 63 96</p> 
                                 <p style={{color:"blue",fontSize:"14px",textAlign:"left"}}> <a><HomeIcon/></a> Atatürk Mahallesi No:19/19 Atakum/Samsun</p>
+                                
                         </div>
 
                         
