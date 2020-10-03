@@ -13,18 +13,18 @@ export default class Foooter extends Component {
     render() {
         return (
             
-            <div className="body">
-                <div class="container">
-                    <div class="row">
-                        <div className="col-lg-3 col-md-4 col-sm-6 col-12" style={{float:"left"}}>
+            <div>
+                    <div class="row p-4">
+
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                            <a href="Saglam" title="Sağlam Temizlik"><img src={logo} alt="logo" style={{width:"90%",height:"150px"}}></img></a> 
-                            <p style={{fontSize:"13px",color:"black",textAlign:"justify",textIndent:"1px"}}> 1500'lerden beri kullanılmakta olan standard Lorem Ipsum metinleri ilgilenenler için yeniden üretilmiştir. 
+                            <p className="mt-4" style={{fontSize:"13px",color:"black",textAlign:"justify",textIndent:"1px"}}> 1500'lerden beri kullanılmakta olan standard Lorem Ipsum metinleri ilgilenenler için yeniden üretilmiştir. 
                                 Çiçero tarafından yazılan 1.10.32 ve 1.10.33 bölümleri de 1914 H. Rackham çevirisinden alınan İngilizce sürümleri eşliğinde özgün biçiminden yeniden üretilmiştir.
                            </p>
                          </div>
 
-                        <div className="col-lg-3 col-md-4 col-sm-6 col-12" style={{float:"left"}}>
-                            <p style={{color:"black"}}>Hizmetlerimiz</p>
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <b style={{color:"black"}}>Hizmetlerimiz</b>
                             <ul className="bottomlist">
                                  <li style={{color:"black"}}><a class="dropdown-item" href="#"> Ev Temizliği</a></li>   
                                  <li style={{color:"black"}}><a class="dropdown-item" href="#"> Ofis Temizliği</a></li>   
@@ -34,8 +34,8 @@ export default class Foooter extends Component {
                             </ul>
                         </div>
 
-                        <div className="col-lg-3 col-md-4 col-sm-6 col-12" style={{float:"left"}}>
-                            <p style={{color:"black"}}>Kurumsal</p>
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <b style={{color:"black"}}>Kurumsal</b>
                             <ul className="bottomlist">
                                  <li style={{color:"black"}}><a class="dropdown-item" href="#"> Hakkımızda</a></li>   
                                  <li style={{color:"black"}}><a class="dropdown-item" href="#"> Belgelerimiz</a></li>   
@@ -45,8 +45,8 @@ export default class Foooter extends Component {
                             </ul>
                         </div>
 
-                        <div className="col-lg-3 col-md-4 col-sm-6 col-12" style={{float:"left"}}>
-                                <p style={{color:"black"}}>Sosyal Medya</p>
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+                                <p style={{color:"black", fontWeight:"bold"}}>Sosyal Medya</p>
                                 <a href="https://www.facebook.com/114979717021494?referrer=whatsapp" style={{float:"left"}}><FacebookIcon/></a>
                                 <a href="https://instagram.com/samsun_profesyonel_temizlik?igshid=17n1ktbi5mrbk" style={{float:"left",textIndent:"10px"}} ><  InstagramIcon/></a>
                                 <a href="https://wa.me/+905446674526" style={{float:"left",textIndent:"10px"}} ><  WhatsAppIcon/></a>
@@ -61,9 +61,6 @@ export default class Foooter extends Component {
 
                         
                     </div>
-                </div>
-                
-                
                 
             </div>
             
