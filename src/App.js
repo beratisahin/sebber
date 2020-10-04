@@ -30,7 +30,7 @@ import DisCepheTemizligi from "./components/hizmetler/dis-cephe-temizligi/DisCep
 import HamaliyeTemini from "./components/hizmetler/hamaliye-temini/HamaliyeTemini";
 import CalismaPrensibimiz from "./components/calisma-prensibimiz/CalismaPrensibimiz";
 import Galeri from "./components/galeri/Galeri";
-import Iletisim from "./components/iletisim/Iletisim";
+import Iletisim from "./components/iletisim/ContactForm";
 
 
 
