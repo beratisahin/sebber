@@ -149,7 +149,7 @@ class ContactForm extends Component {
     return (
       <div>
         <div className="col-12" style={{ display: "flex", justifyContent: "center",backgroundColor:"#333" }}>
-          <div className="col-8 m-5">
+          <div className="col-lg-8 col-md-8 col-sm-12 col-12 m-5">
             <h2 style={{ display: "flex", justifyContent: "center",color:'white' }}>
              <MailIcon style={{ fontSize: 30,color:"white" }} /> BIZIMLE ILETISIME GECEBILIRSINIZ
             </h2>
@@ -165,7 +165,7 @@ class ContactForm extends Component {
             </p>
             <form id="contact-form" onSubmit={this.handleSubmit} noValidate>
               <div className="row m-5 p-1">
-                <div className="col-6">
+                <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                   <input
                     type="text"
                     name="name"
@@ -182,7 +182,7 @@ class ContactForm extends Component {
                   )}
                 </div>
 
-                <div className="col-6">
+                <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                   <input
                     type="email"
                     name="email"

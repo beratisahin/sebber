@@ -12,7 +12,7 @@ export default class TopMenu extends Component {
     return (
       <div
         className="p-0 m-0"
-        style={{ backgroundColor: "#87cefa", width: "100%" }}
+        style={{ width: "100%" }}
       >
         <div className="row p-0 m-0 pl-5">
 
