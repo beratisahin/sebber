@@ -124,18 +124,18 @@ class ContactForm extends Component {
 
     switch (name) {
       case "name":
-        formErrors.name = value.length < 1 ? "Please enter your name." : "";
+        formErrors.name = value.length < 1 ? "Lütfen adınızı giriniz." : "";
         break;
       case "email":
         formErrors.email = emailRegex.test(value)
           ? ""
-          : "Please enter a valid email address.";
+          : "Lütfen geçerli bir mail adresi giriniz.";
         break;
       case "subject":
-        formErrors.subject = value.length < 1 ? "Please enter a subject." : "";
+        formErrors.subject = value.length < 1 ? "Lütfen mesaj konusunu giriniz." : "";
         break;
       case "message":
-        formErrors.message = value.length < 1 ? "Please enter a message" : "";
+        formErrors.message = value.length < 1 ? "Lütfen mesajınızı giriniz" : "";
         break;
       default:
         break;
@@ -151,7 +151,7 @@ class ContactForm extends Component {
         <div className="col-12" style={{ display: "flex", justifyContent: "center",backgroundColor:"#333" }}>
           <div className="col-lg-8 col-md-8 col-sm-12 col-12 m-5">
             <h2 style={{ display: "flex", justifyContent: "center",color:'white' }}>
-             <MailIcon style={{ fontSize: 30,color:"white" }} /> BIZIMLE ILETISIME GECEBILIRSINIZ
+             <MailIcon style={{ fontSize: 30,color:"white" }} /> BİZİMLE İLETİŞİME GEÇEBİLİRSİNİZ
             </h2>
             <p
               style={{
@@ -161,7 +161,7 @@ class ContactForm extends Component {
                 color:'white'
               }}
             >
-              Size yardimci olabilmek icin buradayiz.
+              Size yardımcı olabilmek için buradayız.
             </p>
             <form id="contact-form" onSubmit={this.handleSubmit} noValidate>
               <div className="row m-5 p-1">
@@ -174,7 +174,7 @@ class ContactForm extends Component {
                       formErrors.name.length > 0 ? "error" : null
                     }`}
                     onChange={this.handleChange}
-                    placeholder="Name"
+                    placeholder="Adınız"
                     noValidate
                   ></input>
                   {formErrors.name.length > 0 && (
@@ -210,7 +210,7 @@ class ContactForm extends Component {
                       formErrors.subject.length > 0 ? "error" : null
                     }`}
                     onChange={this.handleChange}
-                    placeholder="Subject"
+                    placeholder="Konu"
                     noValidate
                   ></input>
                   {formErrors.subject.length > 0 && (
@@ -227,7 +227,7 @@ class ContactForm extends Component {
                       formErrors.message.length > 0 ? "error" : null
                     }`}
                     onChange={this.handleChange}
-                    placeholder="Message"
+                    placeholder="Mesajınız"
                     noValidate
                   ></textarea>
                   {formErrors.message.length > 0 && (
@@ -247,7 +247,7 @@ class ContactForm extends Component {
                   type="submit"
                   style={{ width: "100%" }}
                 >
-                  Gonder
+                  Gönder
                 </button>
               </div>
             </div>

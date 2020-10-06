@@ -6,6 +6,7 @@ import EmailIcon from '@material-ui/icons/Email';
 import HomeIcon from '@material-ui/icons/Home';
 import SettingsPhoneIcon from '@material-ui/icons/SettingsPhone';
 import logo from './saglamlogo.jpg';
+import { Link } from "react-router-dom";
 
 import React, { Component } from 'react'
 
@@ -14,39 +15,44 @@ export default class Foooter extends Component {
         return (
             
             <div>
-                    <div class="row p-4">
+                    <div class="row p-4" style={{backgroundColor:"#f8f9fa"}}>
 
                         <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-                           <a href="Saglam" title="Sağlam Temizlik"><img src={logo} alt="logo" style={{width:"90%",height:"150px"}}></img></a> 
+                           <a href="/" title="Samsun Profesyonel Sağlam Temizlik"><img src={logo} alt="logo" style={{width:"90%",height:"150px"}}></img></a> 
                             <p className="mt-4" style={{fontSize:"13px",color:"black",textAlign:"justify",textIndent:"1px"}}> 1500'lerden beri kullanılmakta olan standard Lorem Ipsum metinleri ilgilenenler için yeniden üretilmiştir. 
                                 Çiçero tarafından yazılan 1.10.32 ve 1.10.33 bölümleri de 1914 H. Rackham çevirisinden alınan İngilizce sürümleri eşliğinde özgün biçiminden yeniden üretilmiştir.
                            </p>
                          </div>
 
                         <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-                            <b style={{color:"black"}}>Hizmetlerimiz</b>
-                            <ul className="bottomlist">
-                                 <li style={{color:"black"}}><a class="dropdown-item" href="#"> Ev Temizliği</a></li>   
-                                 <li style={{color:"black"}}><a class="dropdown-item" href="#"> Ofis Temizliği</a></li>   
-                                 <li style={{color:"black"}}><a class="dropdown-item" href="#"> Koltuk Yıkama</a></li>   
-                                 <li style={{color:"black"}}><a class="dropdown-item" href="#"> Araç Koltuk Yıkama</a></li>   
-                                 <li style={{color:"black"}}><a class="dropdown-item" href="#"> Halı Yıkama</a></li>   
+                            <b style={{color:"black",fontSize:"18px"}}>Hizmetlerimiz</b>
+                            <ul className="bottomlist" >
+                                 
+                                 <li><a class="dropdown-item"><Link to="/ev-temizligi">Ev Temizliği</Link></a></li>
+                                 <li><a class="dropdown-item"><Link to="/insaat-sonrasi-temizlik">İnşaat Sonrası Temizlik</Link></a></li>
+                                 <li><a class="dropdown-item"><Link to="/ofis-temizligi">Ofis Temizliği</Link></a></li>
+                                 <li><a class="dropdown-item"><Link to="/yerinde-koltuk-yikama">Yerinde Koltuk Yıkama</Link></a></li>
+                                 <li><a class="dropdown-item"><Link to="/dezenfektan-ile-ilaclama">Dezenfektan ile İlaçlama</Link></a></li>
+                                 <li><a class="dropdown-item"><Link to="/hali-yikama">Halı Yıkama</Link></a></li>
+                                 <li><a class="dropdown-item"><Link to="/merdiven-temizligi">Merdiven Temizliği</Link></a></li>
+                                 <li><a class="dropdown-item"><Link to="/yurt-cami-temizligi">Yurt-Cami-Okul Temizliği</Link></a></li>
+                                 <li><a class="dropdown-item"><Link to="/hamaliye-temini">Hamaliye Temini</Link></a></li>
                             </ul>
                         </div>
 
                         <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-                            <b style={{color:"black"}}>Kurumsal</b>
+                            <b style={{color:"black",fontSize:"18px"}}>Kurumsal</b>
                             <ul className="bottomlist">
-                                 <li style={{color:"black"}}><a class="dropdown-item" href="#"> Hakkımızda</a></li>   
-                                 <li style={{color:"black"}}><a class="dropdown-item" href="#"> Belgelerimiz</a></li>   
-                                 <li style={{color:"black"}}><a class="dropdown-item" href="#"> Referanslarımız</a></li>   
-                                 <li style={{color:"black"}}><a class="dropdown-item" href="#"> Ekibimiz</a></li>   
-                                 <li style={{color:"black"}}><a class="dropdown-item" href="#"> İletişim </a></li>   
+                                 <li style={{color:"black"}}><a class="dropdown-item"><Link to="/hakkimizda">Hakkımızda</Link></a></li>   
+                                 <li style={{color:"black"}}><a class="dropdown-item"><Link to="/belgelerimiz">Belgelerimiz</Link></a></li>   
+                                 <li style={{color:"black"}}><a class="dropdown-item"><Link to="/referanslarimiz">Referanslarımız</Link></a></li>   
+                                 <li style={{color:"black"}}><a class="dropdown-item"><Link to="/ekibimiz">Ekibimiz</Link></a></li>   
+                                 <li style={{color:"black"}}><a class="dropdown-item"><Link to="/iletisim">İletişim</Link></a></li>   
                             </ul>
                         </div>
 
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-                                <p style={{color:"black", fontWeight:"bold"}}>Sosyal Medya</p>
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-12" style={{fontSize:"15px"}}>
+                                <p style={{color:"black", fontWeight:"bold",fontSize:"18px"}}>Sosyal Medya</p>
                                 <a href="https://www.facebook.com/114979717021494?referrer=whatsapp" style={{float:"left"}}><FacebookIcon/></a>
                                 <a href="https://instagram.com/samsun_profesyonel_temizlik?igshid=17n1ktbi5mrbk" style={{float:"left",textIndent:"10px"}} ><  InstagramIcon/></a>
                                 <a href="https://wa.me/+905446674526" style={{float:"left",textIndent:"10px"}} ><  WhatsAppIcon/></a>

@@ -25,8 +25,7 @@ import KoltukYikama from "./components/hizmetler/koltuk-yikama/KoltukYikama";
 import Dezenfektan from "./components/hizmetler/dezenfektan/Dezenfektan";
 import HaliYikama from "./components/hizmetler/hali-yikama/HaliYikama";
 import MerdivenTemizligi from "./components/hizmetler/merdiven-temizligi/MerdivenTemizligi";
-import YurtCamiTemizligi from "./components/hizmetler/yurt-cami-okul-temizligi/YurtCamiTemizligi";
-import DisCepheTemizligi from "./components/hizmetler/dis-cephe-temizligi/DisCephe";
+import YurtCamiTemizligi from "./components/hizmetler/yurt-cami-temizligi/YurtCamiTemizligi";
 import HamaliyeTemini from "./components/hizmetler/hamaliye-temini/HamaliyeTemini";
 import CalismaPrensibimiz from "./components/calisma-prensibimiz/CalismaPrensibimiz";
 import Galeri from "./components/galeri/Galeri";
@@ -64,7 +63,6 @@ function App() {
             <Route path="/hali-yikama" component={HaliYikama} />
             <Route path="/merdiven-temizligi" component={MerdivenTemizligi} />
             <Route path="/yurt-cami-temizligi" component={YurtCamiTemizligi} />
-            <Route path="/dis-cephe-temizligi" component={DisCepheTemizligi} />
             <Route path="/hamaliye-temini" component={HamaliyeTemini} />
             <Route path="/calisma-prensibimiz" component={CalismaPrensibimiz} />
             <Route path="/galeri" component={Galeri} />
@@ -74,6 +72,7 @@ function App() {
           <div className="col-12">
             <Foooter />
           </div>
+          
           <div className="col-12">
             <BottomMenu />
           </div>

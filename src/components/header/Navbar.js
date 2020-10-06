@@ -13,18 +13,21 @@ export default class Navbar extends Component {
           backgroundColor: "#28304d",
         }}
       >
+
         <div
           className="mt-3"
-          style={{ position: "absolute", left: "0", color: "white" }}
+          style={{ position: "absolute", left: "0", color: "white",}}
         >
-          <Link className="nav-link" to="/" style={{ color: "white" }}>
-            SAMSUN SAGLAM PROFESYONEL TEMIZLIK
+          <Link className="nav-link" to="/" style={{ color: "red", fontSize:"18px"}}>
+            <b>SAĞLAM PROFESYONEL TEMİZLİK</b>
           </Link>
         </div>
-
+        
+        
+       
         <nav
           class="navbar navbar-expand-lg navbar-dark p-0 m-0"
-          style={{ backgroundColor: "#28304d", borderRadius: "0px !important" }}
+          style={{ backgroundColor: "#28304d", borderRadius: "0px !important"}}
         >
           <button
             class="navbar-toggler"
@@ -38,7 +41,7 @@ export default class Navbar extends Component {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav" style={{float:"right"}}>
               <li class="nav-item dropdown">
                 <a
                   style={{ color: "#fff", fontSize: "20px" }}
@@ -49,9 +52,13 @@ export default class Navbar extends Component {
                   data-toggle="dropdown"
                   aria-haspopup="true"
                   aria-expanded="false"
+
                 >
                   KURUMSAL
                 </a>
+                &nbsp;
+                
+                
                 <div
                   class="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
@@ -92,8 +99,10 @@ export default class Navbar extends Component {
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  HIZMETLERIMIZ
+                  HİZMETLERİMİZ
                 </a>
+                &nbsp;
+                
                 <div
                   class="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
@@ -128,29 +137,29 @@ export default class Navbar extends Component {
                   <Link className="dropdown-item menu-item-link" to="/yurt-cami-temizligi">
                     Yurt - Cami - Okul Temizliği
                   </Link>
-                  <Link className="dropdown-item menu-item-link" to="/dis-cephe-temizligi">
-                    Dış Cephe Çevre Temizliği
-                  </Link>
                   <Link className="dropdown-item menu-item-link" to="/hamaliye-temini">
                     Hamaliye Temini
                   </Link>
                 </div>
               </li>
-
+              
               <li class="nav-item">
                 <Link className="nav-link menu-item-link" to="/calisma-prensibimiz" style={{ color: "#fff", fontSize: "20px" }}>
-                  ÇALISMA PRENSIBIMIZ
+                  ÇALIŞMA PRENSİBİMİZ
                 </Link>
               </li>
-
+              &nbsp;
+              
               <li class="nav-item">
                 <Link className="nav-link menu-item-link" to="/galeri" style={{ color: "#fff", fontSize: "20px" }}>
-                  GALERI
+                  GALERİ
                 </Link>
               </li>
+              &nbsp;
+              
               <li class="nav-item">
                 <Link className="nav-link menu-item-link" to="/iletisim" style={{ color: "#fff", fontSize: "20px" }}>
-                  ILETISIM
+                  İLETİŞİM
                 </Link>
               </li>
             </ul>
