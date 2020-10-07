@@ -14,7 +14,9 @@ function Home() {
           <Services
             title="Dezenfekte Hijyen"
             text="Çalışma Alanlarınızda Temizliğinizi Önemsiyor Siz Değerli Müşterilerimizin Çalışma Alanlarında Kaparak Evlerinizde .."
-            divert="#dezenfekte-hijyen"
+            divert="/dezenfektan-ile-ilaclama"
+
+
           />
         </div>
 
@@ -22,7 +24,7 @@ function Home() {
           <Services
             title="Ofis Temizliği"
             text="Çalışma Alanlarınızda Temizliğinizi Önemsiyor Siz Değerli Müşterilerimizin Çalışma Alanlarında Kaparak Evlerinizde .."
-            divert="#ofis-temizligi"
+            divert="/ofis-temizligi"
           />
         </div>
 
@@ -30,7 +32,7 @@ function Home() {
           <Services
             title="Ev Temizliği"
             text="Daire, Rezidans, Villa larınızın Profesyonel ekibimiz ile Detaylı Temizlik ve dezenfektan İşlemleri Uzman Personellerimizce ..."
-            divert="#ev-temizligi"
+            divert="/ev-temizligi"
           />
         </div>
 
@@ -38,7 +40,7 @@ function Home() {
           <Services
             title="Hamaliye Temini"
             text="Yuvanızda Gözle Görülmeyen ve Ençokta Koltuk vb. Yerlerde Bulunan Mikroorganizmalar ve Bakterileri Çalışmı ..."
-            divert="#hamaliye-temini"
+            divert="/hamaliye-temini"
           />
         </div>
 
@@ -46,7 +48,7 @@ function Home() {
           <Services
             title="Koltuk Yıkama"
             text="Yuvanızda Gözle Görülmeyen ve Ençokta Koltuk vb. Yerlerde Bulunan Mikroorganizmalar ve Bakterileri Çalışmı ..."
-            divert="#koltuk-yikama"
+            divert="/yerinde-koltuk-yikama"
           />
         </div>
 
@@ -54,7 +56,7 @@ function Home() {
           <Services
             title="Halı Yıkama"
             text="Yuvanızda Gözle Görülmeyen ve Ençokta Koltuk vb. Yerlerde Bulunan Mikroorganizmalar ve Bakterileri Çalışmı ..."
-            divert="#hali-yikama"
+            divert="/hali-yikama"
           />
         </div>
 
@@ -62,7 +64,7 @@ function Home() {
           <Services
             title="Merdiven Temizliği"
             text="Yuvanızda Gözle Görülmeyen ve Ençokta Koltuk vb. Yerlerde Bulunan Mikroorganizmalar ve Bakterileri Çalışmı ..."
-            divert="#merdiven-temizligi"
+            divert="/merdiven-temizligi"
           />
         </div>
 
@@ -70,7 +72,15 @@ function Home() {
           <Services
             title="Yurt Temizliği"
             text="Yuvanızda Gözle Görülmeyen ve Ençokta Koltuk vb. Yerlerde Bulunan Mikroorganizmalar ve Bakterileri Çalışmı ..."
-            divert="#yurt-temizligi"
+            divert="/yurt-cami-temizligi"
+          />
+        </div>
+
+        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
+          <Services
+            title="İnşaat Sonrası Temizlik"
+            text="Yuvanızda Gözle Görülmeyen ve Ençokta Koltuk vb. Yerlerde Bulunan Mikroorganizmalar ve Bakterileri Çalışmı ..."
+            divert="/insaat-sonrasi-temizlik"
           />
         </div>
       </div>
