@@ -28,26 +28,26 @@ export default class Foooter extends Component {
                             <b style={{color:"black",fontSize:"18px"}}>Hizmetlerimiz</b>
                             <ul className="bottomlist" >
                                  
-                                 <li><a class="dropdown-item"><Link to="/ev-temizligi">Ev Temizliği</Link></a></li>
-                                 <li><a class="dropdown-item"><Link to="/insaat-sonrasi-temizlik">İnşaat Sonrası Temizlik</Link></a></li>
-                                 <li><a class="dropdown-item"><Link to="/ofis-temizligi">Ofis Temizliği</Link></a></li>
-                                 <li><a class="dropdown-item"><Link to="/yerinde-koltuk-yikama">Yerinde Koltuk Yıkama</Link></a></li>
-                                 <li><a class="dropdown-item"><Link to="/dezenfektan-ile-ilaclama">Dezenfektan ile İlaçlama</Link></a></li>
-                                 <li><a class="dropdown-item"><Link to="/hali-yikama">Halı Yıkama</Link></a></li>
-                                 <li><a class="dropdown-item"><Link to="/merdiven-temizligi">Merdiven Temizliği</Link></a></li>
-                                 <li><a class="dropdown-item"><Link to="/yurt-cami-temizligi">Yurt-Cami-Okul Temizliği</Link></a></li>
-                                 <li><a class="dropdown-item"><Link to="/hamaliye-temini">Hamaliye Temini</Link></a></li>
+                                 <li onClick ="{window.scrollTop(0)}" ><Link to="/ev-temizligi">Ev Temizliği</Link></li>
+                                 <li onClick ="{window.scrollTop(0)}" ><Link to="/insaat-sonrasi-temizlik">İnşaat Sonrası Temizlik</Link></li>
+                                 <li onClick ="{window.scrollTop(0)}" ><Link to="/ofis-temizligi">Ofis Temizliği</Link></li>
+                                 <li onClick ="{window.scrollTop(0)}" ><Link to="/yerinde-koltuk-yikama">Yerinde Koltuk Yıkama</Link></li>
+                                 <li onClick ="{window.scrollTop(0)}" ><Link to="/dezenfektan-ile-ilaclama">Dezenfektan ile İlaçlama</Link></li>
+                                 <li onClick ="{window.scrollTop(0)}" ><Link to="/hali-yikama">Halı Yıkama</Link></li>
+                                 <li onClick ="{window.scrollTop(0)}" ><Link to="/merdiven-temizligi">Merdiven Temizliği</Link></li>
+                                 <li onClick ="{window.scrollTop(0)}" ><Link to="/yurt-cami-temizligi">Yurt-Cami-Okul Temizliği</Link></li>
+                                 <li onClick ="{window.scrollTop(0)}" ><Link to="/hamaliye-temini">Hamaliye Temini</Link></li>
                             </ul>
                         </div>
 
                         <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                             <b style={{color:"black",fontSize:"18px"}}>Kurumsal</b>
                             <ul className="bottomlist">
-                                 <li style={{color:"black"}}><a class="dropdown-item"><Link to="/hakkimizda">Hakkımızda</Link></a></li>   
-                                 <li style={{color:"black"}}><a class="dropdown-item"><Link to="/belgelerimiz">Belgelerimiz</Link></a></li>   
-                                 <li style={{color:"black"}}><a class="dropdown-item"><Link to="/referanslarimiz">Referanslarımız</Link></a></li>   
-                                 <li style={{color:"black"}}><a class="dropdown-item"><Link to="/ekibimiz">Ekibimiz</Link></a></li>   
-                                 <li style={{color:"black"}}><a class="dropdown-item"><Link to="/iletisim">İletişim</Link></a></li>   
+                                 <li onClick ="{window.scrollTop(0)}" style={{color:"black"}}><Link to="/hakkimizda">Hakkımızda</Link></li>   
+                                 <li onClick ="{window.scrollTop(0)}" style={{color:"black"}}><Link to="/belgelerimiz">Belgelerimiz</Link></li>   
+                                 <li onClick ="{window.scrollTop(0)}" style={{color:"black"}}><Link to="/referanslarimiz">Referanslarımız</Link></li>   
+                                 <li onClick ="{window.scrollTop(0)}" style={{color:"black"}}><Link to="/ekibimiz">Ekibimiz</Link></li>   
+                                 <li onClick ="{window.scrollTop(0)}" style={{color:"black"}}><Link to="/iletisim">İletişim</Link></li>   
                             </ul>
                         </div>
 

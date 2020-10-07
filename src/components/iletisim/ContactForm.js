@@ -45,8 +45,8 @@ class ContactForm extends Component {
   }
 
   toastifySuccess() {
-    toast.success("Mesajiniz Gonderildi!", {
-      position: "top-right",
+    toast.success("Form sent!", {
+      position: "bottom-right",
       autoClose: 5000,
       hideProgressBar: true,
       closeOnClick: true,
@@ -57,8 +57,8 @@ class ContactForm extends Component {
   }
 
   toastifyFail() {
-    toast.error("Mesaj Gonderilemedi!", {
-      position: "top-right",
+    toast.error("Form failed to send!", {
+      position: "bottom-right",
       autoClose: 5000,
       hideProgressBar: true,
       closeOnClick: true,
@@ -84,10 +84,10 @@ class ContactForm extends Component {
       };
 
       emailjs.send(
-        "service_temizlik",
-        "template_czu7njj",
+        "profesyonel_55",
+        "template_42kjtfd",
         templateParams,
-        "user_uT2lSvbaBrUGUSXgj8ILm"
+        "user_9lI9sknsZF7ahiIJ6SHQR"
       );
 
       console.log(`
@@ -124,18 +124,18 @@ class ContactForm extends Component {
 
     switch (name) {
       case "name":
-        formErrors.name = value.length < 1 ? "Lütfen adınızı giriniz." : "";
+        formErrors.name = value.length < 1 ? "Please enter your name." : "";
         break;
       case "email":
         formErrors.email = emailRegex.test(value)
           ? ""
-          : "Lütfen geçerli bir mail adresi giriniz.";
+          : "Please enter a valid email address.";
         break;
       case "subject":
-        formErrors.subject = value.length < 1 ? "Lütfen mesaj konusunu giriniz." : "";
+        formErrors.subject = value.length < 1 ? "Please enter a subject." : "";
         break;
       case "message":
-        formErrors.message = value.length < 1 ? "Lütfen mesajınızı giriniz" : "";
+        formErrors.message = value.length < 1 ? "Please enter a message" : "";
         break;
       default:
         break;
@@ -157,8 +157,15 @@ class ContactForm extends Component {
           }}
         >
           <div className="col-lg-8 col-md-8 col-sm-12 col-12 m-5">
-            <h2 style={{ display: "flex", justifyContent: "center",color:'white' }}>
-             <MailIcon style={{ fontSize: 30,color:"white" }} /> BİZİMLE İLETİŞİME GEÇEBİLİRSİNİZ
+            <h2
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                color: "white",
+              }}
+            >
+              <MailIcon style={{ fontSize: 30, color: "white" }} /> BİZİMLE
+              İLETİŞİME GEÇEBİLİRSİNİZ
             </h2>
             <p
               style={{
@@ -242,26 +249,25 @@ class ContactForm extends Component {
                   )}
                 </div>
               </div>
-            </form>
-
-            <div
-              className="col-12"
-              style={{ display: "flex", justifyContent: "center" }}
-            >
-              <div className="col-4">
-                <button
-                  className="btn btn-primary"
-                  type="submit"
-                  style={{ width: "100%" }}
-                >
-                  Gönder
-                </button>
+              <div
+                className="col-12"
+                style={{ display: "flex", justifyContent: "center" }}
+              >
+                <div className="col-4">
+                  <button
+                    className="btn btn-primary"
+                    type="submit"
+                    style={{ width: "100%" }}
+                  >
+                    Gönder
+                  </button>
+                </div>
               </div>
             </form>
           </div>
-        </div>
 
-        <ToastContainer />
+          <ToastContainer />
+        </div>
       </div>
     );
   }

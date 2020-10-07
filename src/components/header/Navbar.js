@@ -16,7 +16,7 @@ export default class Navbar extends Component {
 
         <div
           className="mt-3"
-          style={{ position: "absolute", left: "0", color: "white",}}
+          style={{ position: "absolute", left: "0", zIndex:'55555', color: "white",}}
         >
           <Link className="nav-link" to="/" style={{ color: "red", fontSize:"18px"}}>
             <b>SAĞLAM PROFESYONEL TEMİZLİK</b>
