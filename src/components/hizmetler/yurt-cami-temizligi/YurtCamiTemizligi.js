@@ -3,7 +3,7 @@ import React from 'react'
 
 function YurtCamiTemizligi() {
     return (
-        <div>
+        <div className="col-12">
             <div className="card mt-4 mb-3" style={{align:"center",backgroundColor:"#f8f7fb",borderRadius:"5px"}}>
                 <img src={Yurt} class="card-img-top" alt="Yurt-Cami-Okul Temizliği" style={{width:"80%",height:"30%",margin:"auto",marginTop:"5px"}}></img>
                 <div className="card-body col-12">

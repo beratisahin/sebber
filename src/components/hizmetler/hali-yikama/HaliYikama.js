@@ -3,7 +3,7 @@ import React from 'react'
 
 function HaliYikama() {
     return (
-        <div>
+        <div className="col-12">
             
             <div className="card mt-4 mb-3" style={{align:"center",backgroundColor:"#f8f7fb",borderRadius:"5px"}}>
                 <img src={Halı} class="card-img-top" alt="Ev Temizliği" style={{width:"80%",height:"30%",margin:"auto",marginTop:"5px"}}></img>

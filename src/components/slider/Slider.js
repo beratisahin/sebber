@@ -18,19 +18,19 @@ export default class Slider extends Component {
                     <div className="carousel-inner">
                         <div className="carousel-item active" data-interval="3000">
                             <img src={house} className="d-block img-responsive w-100" alt="logo" style={{height:"400px"}}></img>
-                            <h4 style={{display:"flex", justifyContent:"center"}}>Profesyonellik</h4>
+                            <h4 style={{display:"flex", justifyContent:"center",textAlign:"center"}}>Profesyonellik</h4>
                          </div>
                         <div className="carousel-item" data-interval="2000">
                             <img src={armchair} className="d-block img-responsive w-100" alt="logo" style={{height:"400px"}}></img>
-                            <h4 style={{display:"flex", justifyContent:"center"}}>Kurumsallık</h4>
+                            <h4 style={{display:"flex", justifyContent:"center",textAlign:"center"}}>Kurumsallık</h4>
                         </div>
                         <div className="carousel-item">
                             <img src={upstair} className="d-block img-responsive w-100" alt="logo" style={{height:"400px"}}></img>
-                            <h4 style={{display:"flex", justifyContent:"center"}}>Mükemmellik</h4>
+                            <h4 style={{display:"flex", justifyContent:"center",textAlign:"center"}}>Mükemmellik</h4>
                         </div>
                         <div className="carousel-item">
                             <img src={office} className="d-block img-responsive w-100" alt="logo" style={{height:"400px"}}></img>
-                            <h4 style={{display:"flex", justifyContent:"center"}}>Güvenilirlik</h4>
+                            <h4 style={{display:"flex", justifyContent:"center",textAlign:"center"}}>Güvenilirlik</h4>
                         </div>
                        
                     </div>

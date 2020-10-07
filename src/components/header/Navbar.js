@@ -82,9 +82,7 @@ export default class Navbar extends Component {
                   <Link className="dropdown-item menu-item-link" to="/sss">
                     S.S.S
                   </Link>
-                  <Link className="dropdown-item menu-item-link" to="/musteri-gorusleri">
-                    Müşteri Görüşleri
-                  </Link>
+                 
                 </div>
               </li>
 

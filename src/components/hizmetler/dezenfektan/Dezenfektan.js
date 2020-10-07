@@ -3,7 +3,7 @@ import React from 'react'
 
 function Dezenfektan() {
     return (
-        <div>
+        <div className="col-12">
               <div className="card mt-4" style={{align:"center",backgroundColor:"lightgray"}}>
                 <img src={Dezenfekte} class="card-img-top" alt="Dezenfektan ile İlaçlama" style={{width:"80%",height:"30%",margin:"auto"}}></img>
                 <div class="card-body col-12">

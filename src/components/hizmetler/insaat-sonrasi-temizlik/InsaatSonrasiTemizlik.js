@@ -3,7 +3,7 @@ import React from 'react'
 
 function InsaatSonrasiTemizlik() {
     return (
-        <div>
+        <div className="col-12">
             
             <div className="card mt-4" style={{align:"center",backgroundColor:"lightgray"}}>
                 <img src={Insaat} class="card-img-top" alt="İnşaat Sonrası Temizlik" style={{width:"80%",height:"30%",margin:"auto"}}></img>
