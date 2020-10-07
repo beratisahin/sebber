@@ -3,7 +3,7 @@ import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 import "./Iletisim.css";
-import MailIcon from '@material-ui/icons/Mail';
+import MailIcon from "@material-ui/icons/Mail";
 
 // Email validation
 const emailRegex = RegExp(
@@ -45,8 +45,8 @@ class ContactForm extends Component {
   }
 
   toastifySuccess() {
-    toast.success("Form sent!", {
-      position: "bottom-right",
+    toast.success("Mesajiniz Gonderildi!", {
+      position: "top-right",
       autoClose: 5000,
       hideProgressBar: true,
       closeOnClick: true,
@@ -57,8 +57,8 @@ class ContactForm extends Component {
   }
 
   toastifyFail() {
-    toast.error("Form failed to send!", {
-      position: "bottom-right",
+    toast.error("Mesaj Gonderilemedi!", {
+      position: "top-right",
       autoClose: 5000,
       hideProgressBar: true,
       closeOnClick: true,
@@ -148,17 +148,31 @@ class ContactForm extends Component {
 
     return (
       <div>
-        <div className="col-12" style={{ display: "flex", justifyContent: "center",backgroundColor:"#333" }}>
+        <div
+          className="col-12"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            backgroundColor: "#333",
+          }}
+        >
           <div className="col-lg-8 col-md-8 col-sm-12 col-12 m-5">
-            <h2 style={{ display: "flex", justifyContent: "center",color:'white' }}>
-             <MailIcon style={{ fontSize: 30,color:"white" }} /> BIZIMLE ILETISIME GECEBILIRSINIZ
+            <h2
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                color: "white",
+              }}
+            >
+              <MailIcon style={{ fontSize: 30, color: "white" }} /> BIZIMLE
+              ILETISIME GECEBILIRSINIZ
             </h2>
             <p
               style={{
                 display: "flex",
                 justifyContent: "center",
                 fontSize: "18px",
-                color:'white'
+                color: "white",
               }}
             >
               Size yardimci olabilmek icin buradayiz.
@@ -235,22 +249,21 @@ class ContactForm extends Component {
                   )}
                 </div>
               </div>
-            </form>
-
-            <div
-              className="col-12"
-              style={{ display: "flex", justifyContent: "center" }}
-            >
-              <div className="col-4">
-                <button
-                  className="btn btn-primary"
-                  type="submit"
-                  style={{ width: "100%" }}
-                >
-                  Gonder
-                </button>
+              <div
+                className="col-12"
+                style={{ display: "flex", justifyContent: "center" }}
+              >
+                <div className="col-4">
+                  <button
+                    className="btn btn-primary"
+                    type="submit"
+                    style={{ width: "100%" }}
+                  >
+                    Gonder
+                  </button>
+                </div>
               </div>
-            </div>
+            </form>
           </div>
         </div>
 
