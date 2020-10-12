@@ -11,6 +11,14 @@ import { Link } from "react-router-dom";
 import React, { Component } from "react";
 
 export default class Foooter extends Component {
+
+  scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }
+
   render() {
     return (
       <div>
@@ -44,35 +52,35 @@ export default class Foooter extends Component {
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
             <b style={{ color: "black", fontSize: "18px" }}>Hizmetlerimiz</b>
             <ul className="bottomlist">
-              <li onClick="{window.scrollTop(0)}">
+              <li onClick={() => this.scrollToTop()}>
                 <Link to="/ev-temizligi">Ev Temizliği</Link>
               </li>
-              <li onClick="{window.scrollTop(0)}">
+              <li onClick={() => this.scrollToTop()}>
                 <Link to="/insaat-sonrasi-temizlik">
                   İnşaat Sonrası Temizlik
                 </Link>
               </li>
-              <li onClick="{window.scrollTop(0)}">
+              <li onClick={() => this.scrollToTop()}>
                 <Link to="/ofis-temizligi">Ofis Temizliği</Link>
               </li>
-              <li onClick="{window.scrollTop(0)}">
+              <li onClick={() => this.scrollToTop()}>
                 <Link to="/yerinde-koltuk-yikama">Yerinde Koltuk Yıkama</Link>
               </li>
-              <li onClick="{window.scrollTop(0)}">
+              <li onClick={() => this.scrollToTop()}>
                 <Link to="/dezenfektan-ile-ilaclama">
                   Dezenfektan ile İlaçlama
                 </Link>
               </li>
-              <li onClick="{window.scrollTop(0)}">
+              <li onClick={() => this.scrollToTop()}>
                 <Link to="/hali-yikama">Halı Yıkama</Link>
               </li>
-              <li onClick="{window.scrollTop(0)}">
+              <li onClick={() => this.scrollToTop()}>
                 <Link to="/merdiven-temizligi">Merdiven Temizliği</Link>
               </li>
-              <li onClick="{window.scrollTop(0)}">
+              <li onClick={() => this.scrollToTop()}>
                 <Link to="/yurt-cami-temizligi">Yurt-Cami-Okul Temizliği</Link>
               </li>
-              <li onClick="{window.scrollTop(0)}">
+              <li onClick={() => this.scrollToTop()}>
                 <Link to="/hamaliye-temini">Hamaliye Temini</Link>
               </li>
             </ul>
@@ -81,19 +89,19 @@ export default class Foooter extends Component {
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
             <b style={{ color: "black", fontSize: "18px" }}>Kurumsal</b>
             <ul className="bottomlist">
-              <li onClick="{window.scrollTop(0)}" style={{ color: "black" }}>
+              <li onClick={() => this.scrollToTop()} style={{ color: "black" }}>
                 <Link to="/hakkimizda">Hakkımızda</Link>
               </li>
-              <li onClick="{window.scrollTop(0)}" style={{ color: "black" }}>
+              <li onClick={() => this.scrollToTop()} style={{ color: "black" }}>
                 <Link to="/belgelerimiz">Belgelerimiz</Link>
               </li>
-              <li onClick="{window.scrollTop(0)}" style={{ color: "black" }}>
+              <li onClick={() => this.scrollToTop()} style={{ color: "black" }}>
                 <Link to="/referanslarimiz">Referanslarımız</Link>
               </li>
-              <li onClick="{window.scrollTop(0)}" style={{ color: "black" }}>
+              <li onClick={() => this.scrollToTop()} style={{ color: "black" }}>
                 <Link to="/ekibimiz">Ekibimiz</Link>
               </li>
-              <li onClick="{window.scrollTop(0)}" style={{ color: "black" }}>
+              <li onClick={() => this.scrollToTop()} style={{ color: "black" }}>
                 <Link to="/iletisim">İletişim</Link>
               </li>
             </ul>
@@ -119,7 +127,7 @@ export default class Foooter extends Component {
               <InstagramIcon />
             </a>
             <a
-              href="https://wa.me/+905446674526"
+              href="https://wa.me/+905432286396"
               style={{ float: "left", textIndent: "10px" }}
             >
               <WhatsAppIcon />
