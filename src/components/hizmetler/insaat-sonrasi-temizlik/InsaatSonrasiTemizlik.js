@@ -10,7 +10,7 @@ function InsaatSonrasiTemizlik() {
                 <div class="card-body col-12">
                     <br/>
                     <h5 class="card-title" style={{textAlign:"center",fontSize:"30px",color:"Red"}}>İnşaat Sonrası Temizlik</h5>
-                    <p class="card-text" style={{textAlign:"center",fontSize:"20px"}}>İnşaat yapımının tamamlanmasının ardından ortaya çıkan her türlü pislik, artık yapı malzemesinin temizliği uzman ekiplerimiz tarafından titizlikle yürütülmektedir. </p>
+                    <p class="card-text" style={{textAlign:"center",fontSize:"20px"}}>İnşaat ya da tadilat sonrası oluşabilecek kaba ya da ince her türlü temizlği ekiplerimiz tarafından itina ile gerçekleştiriyoruz. İnşaat ve tadilat işleri sonucunda oluşacak çöpler molozlar gözünüzü korkutmasın en ince ayrıntısına kadar temizlik işlerinizi tamamlayıp size teslim ediyoruz.</p>
                    
                     
                     <br/>

@@ -9,7 +9,7 @@ function MerdivenTemizligi() {
                 <div class="card-body col-12">
                     <br/>
                     <h5 class="card-title" style={{textAlign:"center",fontSize:"30px",color:"Red"}}>Merdiven Temizliği</h5>
-                    <p class="card-text" style={{textAlign:"center",fontSize:"20px"}}>En çok da dikkat etmemiz gereken alanların başında toplu yaşanılan yerler gelmektedir. Aprtman içindeki başta merdiven ve korkuluk temizliği olmak üzere aklınıza gelebilecek her alanda profesyonel ekip arkadaşlarımız ile temizlik yapmaktayız. </p>
+                    <p class="card-text" style={{textAlign:"center",fontSize:"20px"}}>Toplu olarak yaşanılan apartmanlarınızda, sitelerinizde merdiven ve korkuluk temizliği uzman ekiplerimiz tarafından sağlanmaktadır. Apartmanlarınızda düzenli olarak temizlik işlerinizi alıp sizi memnun etmek için elimizden geleni yapıyrouz. Siz değerli müşterilerimizin temiz ve hijyenik bir ortamda yaşaması bizim önceliğimizdir.</p>
                    
                     
                     <br/>

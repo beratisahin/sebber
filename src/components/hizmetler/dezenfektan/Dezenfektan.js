@@ -9,7 +9,7 @@ function Dezenfektan() {
                 <div class="card-body col-12">
                     <br/>
                     <h5 class="card-title" style={{textAlign:"center",fontSize:"30px",color:"Red"}}>Dezenfektan ile İlaçlama</h5>
-                    <p class="card-text" style={{textAlign:"center",fontSize:"20px"}}>İnşaat yapımının tamamlanmasının ardından ortaya çıkan her türlü pislik, artık yapı malzemesinin temizliği uzman ekiplerimiz tarafından titizlikle yürütülmektedir. </p>
+                    <p class="card-text" style={{textAlign:"center",fontSize:"20px"}}>Kaliteli dezenfektan ürünlerimiz ile bulunduğunuz ortamları en ince ayrıntısına kadar temizleyip Covid-19 virüsünden sizi uzak tutuyoruz. Özellikle bu virüs döneminde dezenfektanların önemi oldukça artmıştır. Turnike girişleri gibi çok aktif bir şekilde temas edilen alanların hijyenini sağlıyoruz.</p>
                    
                     
                     <br/>

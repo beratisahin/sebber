@@ -9,7 +9,7 @@ function KoltukYikama() {
                 <div className="card-body col-12">
                     <br/>
                     <h5 class="card-title" style={{textAlign:"center",fontSize:"30px",color:"Red"}}>Yerinde Koltuk Yıkama</h5>
-                    <p class="card-text" style={{textAlign:"center",fontSize:"20px"}}>Daire, Rezidans, Villalarınızın Profesyonel ekibimiz ile Detaylı Temizlik ve dezenfektan İşlemleri Uzman Personellerimizce Gerçekleştirilmektedir. </p>
+                    <p class="card-text" style={{textAlign:"center",fontSize:"20px"}}>Evinizde bulunan ya da araç koltuklarınızı yerinde detaylı bir şekilde temizleyip ilk günki kondisyonuna dönüştürüyoruz. Deforme olmuş, aşırı kire bulaşmış koltuklarınızı profesyonel temizleme makinalarımızla yerinde temizleme imkanımız bulunmaktadır. </p>
                    
                     
                     <br/>

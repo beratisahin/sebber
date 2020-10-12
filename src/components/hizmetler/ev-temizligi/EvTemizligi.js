@@ -12,7 +12,7 @@ function EvTemizligi() {
                 <div className="card-body col-12">
                     <br/>
                     <h5 class="card-title" style={{textAlign:"center",fontSize:"30px",color:"Red"}}>Ev Temizliği</h5>
-                    <p class="card-text" style={{textAlign:"center",fontSize:"20px"}}>Daire, Rezidans, Villalarınızın Profesyonel ekibimiz ile Detaylı Temizlik ve dezenfektan İşlemleri Uzman Personellerimizce Gerçekleştirilmektedir. </p>
+                    <p class="card-text" style={{textAlign:"center",fontSize:"20px"}}>Evde temizlik yapmak için zaman ve imkan bulamayan müşterilerimiz için düzenli olarak ev temizliği hizmetimiz bulunmaktadır. Evlerinizin her bir köşesi en ince ayrıntısına kadar temizlenip size teslim edilir. Hizmetimizden memnun kalmanız bizim önceliğimizdir, geri dönüşleriniz olumlu oluncaya değin hizmetimizin devam edeceğinin garantisini verebiliriz.</p>
                    
                     
                     <br/>

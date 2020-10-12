@@ -10,7 +10,7 @@ function HaliYikama() {
                 <div className="card-body col-12">
                     <br/>
                     <h5 class="card-title" style={{textAlign:"center",fontSize:"30px",color:"Red"}}>Halı Yıkama</h5>
-                    <p class="card-text" style={{textAlign:"center",fontSize:"20px"}}>Daire, Rezidans, Villalarınızın Profesyonel ekibimiz ile Detaylı Temizlik ve dezenfektan İşlemleri Uzman Personellerimizce Gerçekleştirilmektedir. </p>
+                    <p class="card-text" style={{textAlign:"center",fontSize:"20px"}}>Çocularınızın üzerinde emeklediği ve en çok bakteri barındıran alanların başında olan halılarınızın hijyeni sağlamaktayız. Evlerimizin vazgeçilmez eşyalarından olan halılarımızı yıkama işlemlerini ekiplerimiz profesyonel bir şekilde en kaliteli makinalarmızla yerine getiriyoruz. Belirttiğiniz adresten halılarınızı teslim alıp naylona sarılmış şekilde ayağınıza kadar getirip teslim ediyoruz. </p>
                    
                     
                     <br/>

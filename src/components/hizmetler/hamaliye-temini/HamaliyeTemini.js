@@ -10,7 +10,7 @@ function HamaliyeTemini() {
                 <div className="card-body col-12">
                     <br/>
                     <h5 class="card-title" style={{textAlign:"center",fontSize:"30px",color:"Red"}}>Hamaliye Temini</h5>
-                    <p class="card-text" style={{textAlign:"center",fontSize:"20px"}}>Daire, Rezidans, Villalarınızın Profesyonel ekibimiz ile Detaylı Temizlik ve dezenfektan İşlemleri Uzman Personellerimizce Gerçekleştirilmektedir. </p>
+                    <p class="card-text" style={{textAlign:"center",fontSize:"20px"}}>Evden eve nakliyat ve küçük çaplı eşya taşıma işlemleriniz için personel talebinde bulunup işlerinizi çözüme kavuştururuz. Size bir telefon kadar uzaktayız, siz yorulmayın biz sizler için her türlü işi sırasıyla yerine getirip eşyalarınızı evlerinize, ofisinize yerleştiriyoruz. </p>
                    
                     
                     <br/>

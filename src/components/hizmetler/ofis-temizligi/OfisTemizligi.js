@@ -9,7 +9,7 @@ function OfisTemizligi() {
                 <div className="card-body col-12">
                     <br/>
                     <h5 class="card-title" style={{textAlign:"center",fontSize:"30px",color:"Red"}}>Ofis Temizliği</h5>
-                    <p class="card-text" style={{textAlign:"center",fontSize:"20px"}}>Çalışma Alanlarınızda Temizliğinizi Önemsiyor Siz Değerli Müşterilerimizin Çalışma Alanlarında Kaparak Evlerinizde sevdiklerinize Her türlü Mikrop ve Bakterileri Taşımamanız için Temizlik Sonrası Dezenfektan Uygulaması Gerçekleştiriyoruz.</p>
+                    <p class="card-text" style={{textAlign:"center",fontSize:"20px"}}>Ofis ortamı gibi toplu çalışma alanlarında hijyenin ne kadar önemli olduğunun farkındayız ve en iyi hizmeti veriyoruz. Çalışma arkadaşlarınız ile gönül rahatlığıyla etkileşimde bulunabilir, profesyonel işinize odaklanabilirsiniz. Her türlü ofis temizliğini sağlayıp sizlere güzelenzih bir ortamda çalışma imkanı sunmak bizim görevimizdir.</p>
                    
                     
                     <br/>

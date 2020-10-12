@@ -9,7 +9,7 @@ function YurtCamiTemizligi() {
                 <div className="card-body col-12">
                     <br/>
                     <h5 class="card-title" style={{textAlign:"center",fontSize:"30px",color:"Red"}}>Yurt-Cami-Okul Temizliği</h5>
-                    <p class="card-text" style={{textAlign:"center",fontSize:"20px"}}>Daire, Rezidans, Villalarınızın Profesyonel ekibimiz ile Detaylı Temizlik ve dezenfektan İşlemleri Uzman Personellerimizce Gerçekleştirilmektedir. </p>
+                    <p class="card-text" style={{textAlign:"center",fontSize:"20px"}}>Öğrencilerimizin kaldığı yurt pansiyon okul gibi alanlarda en iyi şekilde hijyen koşullarını yerine getirip hizmet sağlamaktayız. Böylelikle öğrencilerimiz asıl odaklanmaları gereken derslerine sağlıklı ve hijyenik bir ortamda gönül rahatlığı ile çalışabilirler.</p>
                    
                     
                     <br/>

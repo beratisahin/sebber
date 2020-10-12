@@ -13,7 +13,7 @@ function Home() {
         <div className="col-lg-4 col-md-6 col-sm-12 col-12">
           <Services
             title="Dezenfekte Hijyen"
-            text="Çalışma Alanlarınızda Temizliğinizi Önemsiyor Siz Değerli Müşterilerimizin Çalışma Alanlarında Kaparak Evlerinizde .."
+            text="Kaliteli dezenfektan ürünlerimiz ile bulunduğunuz ortamları en ince ayrıntısına kadar temizleyip Covid-19 virüsünden sizi uzak tutuyoruz..."
             divert="/dezenfektan-ile-ilaclama"
 
 
@@ -23,7 +23,7 @@ function Home() {
         <div className="col-lg-4 col-md-6 col-sm-12 col-12">
           <Services
             title="Ofis Temizliği"
-            text="Çalışma Alanlarınızda Temizliğinizi Önemsiyor Siz Değerli Müşterilerimizin Çalışma Alanlarında Kaparak Evlerinizde .."
+            text="Ofis ortamı gibi toplu çalışma alanlarında hijyenin ne kadar önemli olduğunun farkındayız ve en iyi hizmeti veriyoruz..."
             divert="/ofis-temizligi"
           />
         </div>
@@ -31,7 +31,7 @@ function Home() {
         <div className="col-lg-4 col-md-6 col-sm-12 col-12">
           <Services
             title="Ev Temizliği"
-            text="Daire, Rezidans, Villa larınızın Profesyonel ekibimiz ile Detaylı Temizlik ve dezenfektan İşlemleri Uzman Personellerimizce ..."
+            text="Evde temizlik yapmak için zaman ve imkan bulamayan müşterilerimiz için düzenli olarak ev temizliği hizmetimiz bulunmaktadır..."
             divert="/ev-temizligi"
           />
         </div>
@@ -39,7 +39,7 @@ function Home() {
         <div className="col-lg-4 col-md-6 col-sm-12 col-12">
           <Services
             title="Hamaliye Temini"
-            text="Yuvanızda Gözle Görülmeyen ve Ençokta Koltuk vb. Yerlerde Bulunan Mikroorganizmalar ve Bakterileri Çalışmı ..."
+            text="Evden eve nakliyat ve küçük çaplı eşya taşıma işlemleriniz için personel talebinde bulunup işlerinizi çözüme kavuştururuz..."
             divert="/hamaliye-temini"
           />
         </div>
@@ -47,7 +47,7 @@ function Home() {
         <div className="col-lg-4 col-md-6 col-sm-12 col-12">
           <Services
             title="Koltuk Yıkama"
-            text="Yuvanızda Gözle Görülmeyen ve Ençokta Koltuk vb. Yerlerde Bulunan Mikroorganizmalar ve Bakterileri Çalışmı ..."
+            text="Evinizde bulunan ya da araç koltuklarınızı yerinde detaylı bir şekilde temizleyip ilk günki kondisyonuna dönüştürüyoruz..."
             divert="/yerinde-koltuk-yikama"
           />
         </div>
@@ -55,7 +55,7 @@ function Home() {
         <div className="col-lg-4 col-md-6 col-sm-12 col-12">
           <Services
             title="Halı Yıkama"
-            text="Yuvanızda Gözle Görülmeyen ve Ençokta Koltuk vb. Yerlerde Bulunan Mikroorganizmalar ve Bakterileri Çalışmı ..."
+            text="Çocularınızın üzerinde emeklediği ve en çok bakteri barındıran alanların başında olan halılarınızın hijyeni sağlamaktayız..."
             divert="/hali-yikama"
           />
         </div>
@@ -63,7 +63,7 @@ function Home() {
         <div className="col-lg-4 col-md-6 col-sm-12 col-12">
           <Services
             title="Merdiven Temizliği"
-            text="Yuvanızda Gözle Görülmeyen ve Ençokta Koltuk vb. Yerlerde Bulunan Mikroorganizmalar ve Bakterileri Çalışmı ..."
+            text="Toplu olarak yaşanılan apartmanlarınızda, sitelerinizde merdiven ve korkuluk temizliği uzman ekiplerimiz tarafından sağlanmaktadır..."
             divert="/merdiven-temizligi"
           />
         </div>
@@ -71,7 +71,7 @@ function Home() {
         <div className="col-lg-4 col-md-6 col-sm-12 col-12">
           <Services
             title="Yurt Temizliği"
-            text="Yuvanızda Gözle Görülmeyen ve Ençokta Koltuk vb. Yerlerde Bulunan Mikroorganizmalar ve Bakterileri Çalışmı ..."
+            text="Öğrencilerimizin kaldığı yurt pansiyon okul gibi alanlarda en iyi şekilde hijyen koşullarını yerine getirip hizmet sağlamaktayız..."
             divert="/yurt-cami-temizligi"
           />
         </div>
@@ -79,7 +79,7 @@ function Home() {
         <div className="col-lg-4 col-md-6 col-sm-12 col-12">
           <Services
             title="İnşaat Sonrası Temizlik"
-            text="Yuvanızda Gözle Görülmeyen ve Ençokta Koltuk vb. Yerlerde Bulunan Mikroorganizmalar ve Bakterileri Çalışmı ..."
+            text="İnşaat ya da tadilat sonrası oluşabilecek kaba ya da ince her türlü temizlği ekiplerimiz tarafından itina ile gerçekleştiriyoruz..."
             divert="/insaat-sonrasi-temizlik"
           />
         </div>
