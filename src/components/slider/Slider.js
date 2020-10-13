@@ -1,7 +1,4 @@
 import './Slider.css';
-import logo1 from './st1.jpg';
-import logo2 from './st2.jpg';
-import logo3 from './st3.jpg';
 import house from './home.jpg';
 import armchair from './armchair.jpg';
 import upstair from './disenfection.jpg';
