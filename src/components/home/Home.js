@@ -23,7 +23,7 @@ function Home() {
         <div className="col-lg-4 col-md-6 col-sm-12 col-12">
           <Services
             title="Ofis Temizliği"
-            text="Ofis ortamı gibi toplu çalışma alanlarında hijyenin ne kadar önemli olduğunun farkındayız ve en iyi hizmeti veriyoruz..."
+            text="Ofis ortamı gibi toplu çalışma alanlarında hijyenin ve sağlığın ne kadar önemli olduğunun farkındayız ve elimizden geleni yapıyoruz..."
             divert="/ofis-temizligi"
           />
         </div>
@@ -31,7 +31,7 @@ function Home() {
         <div className="col-lg-4 col-md-6 col-sm-12 col-12">
           <Services
             title="Ev Temizliği"
-            text="Evde temizlik yapmak için zaman ve imkan bulamayan müşterilerimiz için düzenli olarak ev temizliği hizmetimiz bulunmaktadır..."
+            text="Evde temizlik yapmak için zaman ve imkan bulamayan müşterilerimize titiz ve noksansız bir şekilde ev temizliği hizmeti sunmaktayız..."
             divert="/ev-temizligi"
           />
         </div>
@@ -39,7 +39,7 @@ function Home() {
         <div className="col-lg-4 col-md-6 col-sm-12 col-12">
           <Services
             title="Hamaliye Temini"
-            text="Evden eve nakliyat ve küçük çaplı eşya taşıma işlemleriniz için personel talebinde bulunup işlerinizi çözüme kavuştururuz..."
+            text="Evden eve nakliyat ve küçük çaplı eşya taşıma işlemleriniz için personel talebinde bulunup nakliyat işlemlerinizi çözüme kavuştururuz..."
             divert="/hamaliye-temini"
           />
         </div>
@@ -47,7 +47,7 @@ function Home() {
         <div className="col-lg-4 col-md-6 col-sm-12 col-12">
           <Services
             title="Koltuk Yıkama"
-            text="Evinizde bulunan ya da araç koltuklarınızı yerinde detaylı bir şekilde temizleyip ilk günki kondisyonuna dönüştürüyoruz..."
+            text="Evinizde bulunan koltuk takımı ya da araç koltuklarınızı yerinde detaylı bir şekilde temizleyip ilk günki kondisyonuna dönüştürüyoruz..."
             divert="/yerinde-koltuk-yikama"
           />
         </div>
@@ -55,7 +55,7 @@ function Home() {
         <div className="col-lg-4 col-md-6 col-sm-12 col-12">
           <Services
             title="Halı Yıkama"
-            text="Çocularınızın üzerinde emeklediği ve en çok bakteri barındıran alanların başında olan halılarınızın hijyeni sağlamaktayız..."
+            text="Çocukların ve bebeklerin üzerinde oynadığı ve en çok bakteri barındıran alanların başında olan halılarınızın hijyeni sağlamaktayız..."
             divert="/hali-yikama"
           />
         </div>
@@ -71,7 +71,7 @@ function Home() {
         <div className="col-lg-4 col-md-6 col-sm-12 col-12">
           <Services
             title="Yurt Temizliği"
-            text="Öğrencilerimizin kaldığı yurt pansiyon okul gibi alanlarda en iyi şekilde hijyen koşullarını yerine getirip hizmet sağlamaktayız..."
+            text="Öğrencilerimizin kaldığı yurt, pansiyon, okul gibi alanlarda en iyi şekilde hijyen koşullarını yerine getirip hizmet sağlamaktayız..."
             divert="/yurt-cami-temizligi"
           />
         </div>
@@ -79,7 +79,7 @@ function Home() {
         <div className="col-lg-4 col-md-6 col-sm-12 col-12">
           <Services
             title="İnşaat Sonrası Temizlik"
-            text="İnşaat ya da tadilat sonrası oluşabilecek kaba ya da ince her türlü temizlği ekiplerimiz tarafından itina ile gerçekleştiriyoruz..."
+            text="İnşaat ya da tadilat sonrası oluşabilecek kaba ya da ince her türlü temizliği ekiplerimiz tarafından titizlikle gerçekleştiriyoruz..."
             divert="/insaat-sonrasi-temizlik"
           />
         </div>
