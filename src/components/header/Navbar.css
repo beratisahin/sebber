@@ -7,6 +7,9 @@
 
 
 }
+.nav-link{
+  font-family: "Georgia", Courier, monospace;
+}
 
 .nav-link:hover{
   color: #333 !important;

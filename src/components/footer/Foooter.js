@@ -118,47 +118,51 @@ export default class Foooter extends Component {
               href="https://www.facebook.com/114979717021494?referrer=whatsapp"
               style={{ float: "left" }}
             >
-              <FacebookIcon />
+              <FacebookIcon className="icon" style={{fontSize:"24px"}}/>
             </a>
             <a
               href="https://instagram.com/samsun_profesyonel_temizlik?igshid=17n1ktbi5mrbk"
               style={{ float: "left", textIndent: "10px" }}
             >
-              <InstagramIcon />
+              <InstagramIcon className="icon" style={{fontSize:"24px"}}/>
             </a>
             <a
               href="https://wa.me/+905432286396"
               style={{ float: "left", textIndent: "10px" }}
             >
-              <WhatsAppIcon />
+              <WhatsAppIcon className="icon" style={{fontSize:"24px"}}/>
             </a>
             <a
               href="tel: +905446674526"
               style={{ float: "left", textIndent: "10px" }}
             >
-              <SettingsPhoneIcon />
+              <SettingsPhoneIcon className="icon" style={{fontSize:"24px"}} />
             </a>
 
             <br />
+            <br/>
             <p style={{ color: "blue", fontSize: "14px", textAlign: "left" }}>
               {" "}
               <a>
-                <EmailIcon />
+                <EmailIcon style={{fontSize:"20px"}}/>
               </a>
+              &nbsp;
               saglamprofesyoneltemizlik@gmail.com
             </p>
             <p style={{ color: "blue", fontSize: "14px", textAlign: "left" }}>
               {" "}
               <a>
-                <SettingsPhoneIcon />
-              </a>{" "}
+                <SettingsPhoneIcon style={{fontSize:"20px"}}/>
+              </a>
+              &nbsp;
               0543 228 63 96
             </p>
             <p style={{ color: "blue", fontSize: "14px", textAlign: "left" }}>
-              {" "}
+              
               <a>
-                <HomeIcon />
+                <HomeIcon style={{fontSize:"20px"}}/>
               </a>
+              &nbsp;
               Yenidoğan Mahallesi Akagündüz Caddesi İlkadım/Samsun{" "}
             </p>
           </div>
