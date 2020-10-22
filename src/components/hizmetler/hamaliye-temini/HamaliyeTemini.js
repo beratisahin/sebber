@@ -6,7 +6,7 @@ function HamaliyeTemini() {
         <div className="col-12">
             
             <div className="card mt-4 mb-3" style={{align:"center",backgroundColor:"#f8f7fb",borderRadius:"5px"}}>
-                <img src={Hamaliye} class="card-img-top" alt="Hamaliye Temini" style={{width:"80%",height:"30%",margin:"auto",marginTop:"5px"}}></img>
+                <img src={Hamaliye} class="card-img-top" title="hamaliye temini" alt="Hamaliye Temini" style={{width:"80%",height:"30%",margin:"auto",marginTop:"5px"}}></img>
                 <div className="card-body col-12">
                     <br/>
                     <h5 class="card-title" style={{textAlign:"center",fontSize:"30px",color:"Red"}}>Hamaliye Temini</h5>

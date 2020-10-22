@@ -5,7 +5,7 @@ function MerdivenTemizligi() {
     return (
         <div className="col-12">
              <div className="card mt-4" style={{align:"center",backgroundColor:"lightgray"}}>
-                <img src={Merdiven} class="card-img-top" alt="Merdiven Temizliği" style={{width:"80%",height:"30%",margin:"auto"}}></img>
+                <img src={Merdiven} class="card-img-top" title="merdiven temizliği" alt="Merdiven Temizliği" style={{width:"80%",height:"30%",margin:"auto"}}></img>
                 <div class="card-body col-12">
                     <br/>
                     <h5 class="card-title" style={{textAlign:"center",fontSize:"30px",color:"Red"}}>Merdiven Temizliği</h5>

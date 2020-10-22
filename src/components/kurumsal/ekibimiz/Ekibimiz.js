@@ -9,7 +9,7 @@ function Ekibimiz() {
         <div style={{marginTop:"10px",marginBottom:"10px",justifyContent:"flex-end !important"}}>
             <h3 style={{textAlign:"center",color:"orange"}}><b>Ekibimiz</b></h3>
             <div className="col-lg-4 col-md-6 col-sm-12 col-12" style={{border:"1px solid lightgreen",borderRadius:"10px"}}>
-                <img src={mr} className="d-block img-responsive w-100" alt="logo" style={{height:"400px"}}></img>
+                <img src={mr} className="d-block img-responsive w-100" alt="logo" title="temizlik" style={{height:"400px"}}></img>
                 <p class="card-text"><b>1- Mehmet SAĞLAM</b> </p>
           
             </div>

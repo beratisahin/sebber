@@ -14,19 +14,19 @@ export default class Slider extends Component {
                 <div id="carouselExampleInterval" className="carousel slide" data-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active" data-interval="3000">
-                            <img src={house} className="d-block img-responsive w-100" alt="logo" style={{height:"400px"}}></img>
+                            <img src={house} className="d-block img-responsive w-100" title="ev temizliği" alt="logo" style={{height:"400px"}}></img>
                             <h4 style={{display:"flex", justifyContent:"center",textAlign:"center"}}>Profesyonellik</h4>
                          </div>
                         <div className="carousel-item" data-interval="2000">
-                            <img src={armchair} className="d-block img-responsive w-100" alt="logo" style={{height:"400px"}}></img>
+                            <img src={armchair} className="d-block img-responsive w-100" title="koltuk yıkama" alt="logo" style={{height:"400px"}}></img>
                             <h4 style={{display:"flex", justifyContent:"center",textAlign:"center"}}>Kurumsallık</h4>
                         </div>
                         <div className="carousel-item">
-                            <img src={upstair} className="d-block img-responsive w-100" alt="logo" style={{height:"400px"}}></img>
+                            <img src={upstair} className="d-block img-responsive w-100" title="merdiven temizliği" alt="logo" style={{height:"400px"}}></img>
                             <h4 style={{display:"flex", justifyContent:"center",textAlign:"center"}}>Mükemmellik</h4>
                         </div>
                         <div className="carousel-item">
-                            <img src={office} className="d-block img-responsive w-100" alt="logo" style={{height:"400px"}}></img>
+                            <img src={office} className="d-block img-responsive w-100" title="ofis temizliği" alt="logo" style={{height:"400px"}}></img>
                             <h4 style={{display:"flex", justifyContent:"center",textAlign:"center"}}>Güvenilirlik</h4>
                         </div>
                        

@@ -5,7 +5,7 @@ function KoltukYikama() {
     return (
         <div className="col-12">
             <div className="card mt-4 mb-3" style={{align:"center",backgroundColor:"#f8f7fb",borderRadius:"5px"}}>
-                <img src={Koltuk} class="card-img-top" alt="Koltuk Yıkama" style={{width:"80%",height:"30%",margin:"auto",marginTop:"5px"}}></img>
+                <img src={Koltuk} class="card-img-top" title="koltuk yıkama" alt="Koltuk Yıkama" style={{width:"80%",height:"30%",margin:"auto",marginTop:"5px"}}></img>
                 <div className="card-body col-12">
                     <br/>
                     <h5 class="card-title" style={{textAlign:"center",fontSize:"30px",color:"Red"}}>Yerinde Koltuk Yıkama</h5>

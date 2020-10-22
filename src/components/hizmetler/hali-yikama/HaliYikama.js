@@ -6,7 +6,7 @@ function HaliYikama() {
         <div className="col-12">
             
             <div className="card mt-4 mb-3" style={{align:"center",backgroundColor:"#f8f7fb",borderRadius:"5px"}}>
-                <img src={Halı} class="card-img-top" alt="Ev Temizliği" style={{width:"80%",height:"30%",margin:"auto",marginTop:"5px"}}></img>
+                <img src={Halı} class="card-img-top" title="halı yıkama" alt="Ev Temizliği" style={{width:"80%",height:"30%",margin:"auto",marginTop:"5px"}}></img>
                 <div className="card-body col-12">
                     <br/>
                     <h5 class="card-title" style={{textAlign:"center",fontSize:"30px",color:"Red"}}>Halı Yıkama</h5>
