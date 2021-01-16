@@ -3,7 +3,6 @@ import "./App.css";
 import Navbar from "./components/header/Navbar";
 import Foooter from "./components/footer/Foooter";
 import TopMenu from "./components/header/TopMenu";
-import BottomMenu from "./components/footer/BottomMenu";
 import {
   BrowserRouter as Router,
   Switch,
@@ -16,7 +15,6 @@ import Belgerimiz from "./components/kurumsal/belgelerimiz/Belgelerimiz";
 import Referanslarimiz from "./components/kurumsal/referanslarimiz/Referanslarimiz";
 import Ekibimiz from "./components/kurumsal/ekibimiz/Ekibimiz";
 import IsBasvurusu from "./components/kurumsal/is-basvurusu/IsBasvurusu";
-import MusteriGorusleri from "./components/kurumsal/musteri-gorusleri/MusteriGorusleri";
 import SSS from "./components/kurumsal/s.s.s/Sss";
 import EvTemizligi from "./components/hizmetler/ev-temizligi/EvTemizligi";
 import InsaatSonrasiTemizlik from "./components/hizmetler/insaat-sonrasi-temizlik/InsaatSonrasiTemizlik";
@@ -54,7 +52,6 @@ function App() {
             <Route path="/ekibimiz" component={Ekibimiz} />
             <Route path="/is-basvurusu" component={IsBasvurusu} />
             <Route path="/sss" component={SSS} />
-            <Route path="/musteri-gorusleri" component={MusteriGorusleri} />
             <Route path="/ev-temizligi" component={EvTemizligi} />
             <Route path="/insaat-sonrasi-temizlik" component={InsaatSonrasiTemizlik} />
             <Route path="/ofis-temizligi" component={OfisTemizligi} />
@@ -73,9 +70,7 @@ function App() {
             <Foooter />
           </div>
           
-          <div className="col-12">
-            <BottomMenu />
-          </div>
+          
         </div>
       </div>
     </Router>

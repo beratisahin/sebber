@@ -5,19 +5,23 @@ import React, { Component } from 'react'
 export default class Services extends Component {
     render() {
            //Destructing
-           const {title,text,divert}=this.props;
+           const {photo,title,text,divert}=this.props;
            return (
 
                    <div>
-                        <div className="col-12 m-4 pl-5 pr-5 pt-2 pb-2" style={{backgroundColor:"lightskyblue",borderRadius:"10px",textAlign:"center"}}>
-                                <h3 class="card-title" style={{color:"darkblue"}}>{title}</h3>
-                                <p class="card-text" style={{fontSize:"16px"}}>{text}</p>
+                        <div className="col-12 m-4 pl-5 pr-5 pt-2 pb-2 card-temp" style={{backgroundColor:"#BEE6FD",borderRadius:"1rem",textAlign:"center",height:"40rem",border:"2px darkblue solid"}}>
+                                <img src={photo} className="card-photo" alt="..." style={{width:"100%", height:"20rem",padding:"1%",borderRadius:"1rem"}}></img>
+                                <p class="card-title" style={{color:"darkblue",fontSize:"large",marginTop:"1rem"}}>{title}</p>
+                                <p class="card-text" style={{fontSize:"small",textAlign:"justify"}}>{text}</p>
                                 
-                                <a class="btn btn-primary" ><Link to={divert} style={{color:"white",fontSize:"18px"}}>Daha Fazla Bilgi</Link></a>
+                                <a class="btn btn-primary buton" style={{marginBottom:"-5rem"}} ><Link className="more" to={divert} style={{color:"white",fontSize:"medium"}}>Daha Fazla Bilgi</Link></a>
 
                         </div>
 
                    </div>
+
+
+           
 
            )
     }

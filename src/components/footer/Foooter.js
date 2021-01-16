@@ -22,30 +22,27 @@ export default class Foooter extends Component {
   render() {
     return (
       <div>
-        <div class="row p-4" style={{ backgroundColor: "#f8f9fa" }}>
+        <div class="row p-4" style={{ backgroundColor: "#f8f9fa", height:"auto" }}>
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
             <a href="/" title="Samsun Profesyonel Sağlam Temizlik">
               <img
                 src={logo}
                 alt="logo"
-                style={{ width: "90%", height: "150px" }}
+                style={{ width: "20rem", height: "10rem",display:"block",align:"center",margin:"auto" }}
               ></img>
             </a>
             <p
               className="mt-4"
               style={{
-                fontSize: "13px",
+                fontSize: "14px",
                 color: "black",
                 textAlign: "justify",
                 textIndent: "1px",
               }}
             >
               {" "}
-              1500'lerden beri kullanılmakta olan standard Lorem Ipsum metinleri
-              ilgilenenler için yeniden üretilmiştir. Çiçero tarafından yazılan
-              1.10.32 ve 1.10.33 bölümleri de 1914 H. Rackham çevirisinden
-              alınan İngilizce sürümleri eşliğinde özgün biçiminden yeniden
-              üretilmiştir.
+              Samsun Profesyonel Temizlik olarak siz müşterilerimize en iyi hizmeti verme gayesindeyiz. Başta halı yıkama, araç yıkama, koltuk temizleme,
+              inşaat sonrası temizlik, yurt-cami-okul temizliği, hamaliye temini, merdiven temizliği, ofis temizliği gibi alanlarda hizmet vermekteyiz.
             </p>
           </div>
 
@@ -133,7 +130,7 @@ export default class Foooter extends Component {
               <WhatsAppIcon className="icon" style={{fontSize:"24px"}}/>
             </a>
             <a
-              href="tel: +905446674526"
+              href="tel: +905432286396"
               style={{ float: "left", textIndent: "10px" }}
             >
               <SettingsPhoneIcon className="icon" style={{fontSize:"24px"}} />
@@ -141,32 +138,45 @@ export default class Foooter extends Component {
 
             <br />
             <br/>
-            <p style={{ color: "blue", fontSize: "14px", textAlign: "left" }}>
+            <p style={{ color:"#4682B4", fontSize: "14px", textAlign: "left" }}>
               {" "}
               <a>
-                <EmailIcon style={{fontSize:"20px"}}/>
+                <EmailIcon style={{fontSize:"24px"}}/>
               </a>
               &nbsp;
               saglamprofesyoneltemizlik@gmail.com
             </p>
-            <p style={{ color: "blue", fontSize: "14px", textAlign: "left" }}>
+            <p style={{ color:"#4682B4", fontSize: "14px", textAlign: "left" }}>
               {" "}
               <a>
-                <SettingsPhoneIcon style={{fontSize:"20px"}}/>
+                <SettingsPhoneIcon style={{fontSize:"24px"}}/>
               </a>
               &nbsp;
               0543 228 63 96
             </p>
-            <p style={{ color: "blue", fontSize: "14px", textAlign: "left" }}>
+            <p style={{ color:"#4682B4", fontSize: "14px", textAlign: "left" }}>
               
               <a>
-                <HomeIcon style={{fontSize:"20px"}}/>
+                <HomeIcon style={{fontSize:"24px"}}/>
               </a>
               &nbsp;
-              Yenidoğan Mahallesi Akagündüz Caddesi İlkadım/Samsun{" "}
+              Yenidoğan Mahallesi Akagündüz Caddesi <br/> İlkadım / Samsun{" "}
             </p>
           </div>
+          <div className="col-12">
+            <p style={{color:"#f8f9fa"}}>This line was inserted in order to give a unique hr tag below the four colums</p>
+            <hr/> 
+                    <div className="patent" >
+                        
+                            <p style={{fontSize:"12px",color:"black",paddingLeft:"1rem",float:"left"}}> ©2020 All Rights Reserved</p> 
+                            &nbsp; &nbsp;
+                            <p style={{fontSize:"12px",color:"black",paddingRight:"1rem",float:"right",textAlign:"right"}}> ®Se<b>B</b>er Tech</p>
+                    </div>
+          </div>
+
         </div>
+
+        
       </div>
     );
   }

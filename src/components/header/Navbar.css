@@ -8,16 +8,26 @@
 
 }
 .nav-link{
-  font-family: "Georgia", Courier, monospace;
+  margin-left: 2rem;
 }
 
 .nav-link:hover{
-  color: #333 !important;
-  background-color: white;
+  color: yellow !important;
+
+}
+.dropdown-menu{
+  background-color: #28304d !important;
 }
 
 .menu-item-link{
   text-decoration: none !important;
+  color:white !important;
+}
+
+.menu-item-link:hover{
+  
+  background-color: white !important;
+  color:#28304d !important;
 }
 
 /* On screens that are 600px or less, set the background color to olive */
@@ -25,5 +35,9 @@
   .row{
     justify-content: flex-end !important;
   }
+  .dropdown-menu{
+    background-color: #4682B4 !important;
+  }
+  
 }
 

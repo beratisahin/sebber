@@ -13,18 +13,6 @@ export default class Navbar extends Component {
           backgroundColor: "#28304d",
         }}
       >
-
-        <div
-          className="mt-3"
-          style={{ position: "absolute", left: "0", zIndex:'55555', color: "white",}}
-        >
-          <Link className="nav-link" to="/" style={{ color: "red", fontSize:"17px"}}>
-            <b>SAĞLAM PROFESYONEL TEMİZLİK</b>
-          </Link>
-        </div>
-        
-        
-       
         <nav
           class="navbar navbar-expand-lg navbar-dark p-0 m-0"
           style={{ backgroundColor: "#28304d", borderRadius: "0px !important"}}
@@ -142,21 +130,21 @@ export default class Navbar extends Component {
               </li>
               
               <li class="nav-item">
-                <Link className="nav-link menu-item-link" to="/calisma-prensibimiz" style={{ color: "#fff", fontSize: "20px" }}>
+                <Link className="nav-link menu-item-link2" to="/calisma-prensibimiz" style={{ color: "#fff", fontSize: "20px" }}>
                   ÇALIŞMA PRENSİBİMİZ
                 </Link>
               </li>
               &nbsp;
               
               <li class="nav-item">
-                <Link className="nav-link menu-item-link" to="/galeri" style={{ color: "#fff", fontSize: "20px" }}>
+                <Link className="nav-link menu-item-link2" to="/galeri" style={{ color: "#fff", fontSize: "20px" }}>
                   GALERİ
                 </Link>
               </li>
               &nbsp;
               
               <li class="nav-item">
-                <Link className="nav-link menu-item-link" to="/iletisim" style={{ color: "#fff", fontSize: "20px" }}>
+                <Link className="nav-link menu-item-link2" to="/iletisim" style={{ color: "#fff", fontSize: "20px" }}>
                   İLETİŞİM
                 </Link>
               </li>

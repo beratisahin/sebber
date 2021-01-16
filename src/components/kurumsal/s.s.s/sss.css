@@ -1,7 +1,7 @@
-.hak{
-    font-size: large;
-    color:black;
-    
+.kurumsal_text{
+    font-size: medium !important;
+    text-align: justify !important;
+   
 }
 .hed{
     color:red;

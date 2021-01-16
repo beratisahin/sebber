@@ -6,9 +6,9 @@ function IsBasvurusu() {
             
            
             
-        <div className="is_basvuru">
-            <h3 style={{textAlign:"center",color:"orange"}}>İş Başvurusu</h3>
-            <p className="hak" style={{fontSize:"large",color:"black",textIndent:"2%"}}>
+        <div className="is_basvuru" style={{minHeight:"40rem"}}>
+            <h3 style={{textAlign:"center",color:"orange"}}><b>İş Başvurusu</b></h3>
+            <p className="kurumsal_text">
                 Ekibimize katılıp bizlerle çalışmak isteyen arkadaşlarımız iletişim bölümünde bulunan formdan ya da sosyal medya bölümünde bulunan Whatsapp veya Telefon Çağrısı üzerinden bizlerle iletişime geçebilir. Değerlendirmeler sonucunda sizinle tekrardan iletişime geçilip bir takım belgeler talep edilecektir.   
          </p>
             

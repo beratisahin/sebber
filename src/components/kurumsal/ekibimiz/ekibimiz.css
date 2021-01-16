@@ -1,5 +1,30 @@
-.card-text{
-    text-align: center;
-    font-size: x-large;
+.ekip-text{
+    font-size: large !important;
+    text-align: justify !important;
+    text-align: center !important;
+}
+
+.ekippho{
     
+    height:25rem !important;
+    border:2px solid lightgreen !important;
+    border-radius:1rem !important;
+}
+.ekiptemp{
+    height: 30rem !important;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+    .ekippho{
+        height: 20rem !important;
+        
+    }
+    .ekip-text{
+        font-size: small !important;
+    }
+    .ekiptemp{
+        height: 30rem !important;
+    }   
+ 
 }

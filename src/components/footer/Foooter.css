@@ -15,8 +15,10 @@ ul li {
 }
 
 .bottomlist li:hover a:not(.active){
-  color:red;
-  font-size: 18px;
+  color:#009900 !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+  
   
 }
 

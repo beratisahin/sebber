@@ -1,10 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import logo from "./saglamlogo.jpg";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import InstagramIcon from "@material-ui/icons/Instagram";
+import SPT from "./SPT.png";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
-import EmailIcon from "@material-ui/icons/Email";
 import SettingsPhoneIcon from "@material-ui/icons/SettingsPhone";
 import "./TopMenu.css"
 
@@ -12,52 +9,50 @@ export default class TopMenu extends Component {
   render() {
     return (
       <div
-        className="p-0 m-0"
+        className="row p-0 m-0"
         style={{ width: "100%",backgroundColor:"#f8f9fa" }}
       >
-        <div className="row p-0 m-0 pl-5">
+        <div className="col-12" style={{display:"inline"}}>
 
-          <div className="col-4">
-            <a href="/" title="Samsun Sağlam Profesyonel Temizlik">
-            <img
+            <div className="col-2" style={{float:"left"}}>
+              <a href="/" title="Samsun Sağlam Profesyonel Temizlik">
+              <img
+                className="top_image"
+                style={{ height: "auto", width: "100px",padding:"1rem" }}
+                src={SPT}
+                alt="logo"
+                
+              ></img>
+              </a>
               
-              style={{ height: "auto", width: "100px" }}
-              src={logo}
-              alt="logo"
-              
-            ></img>
-            </a>
-            
-          </div>
+            </div>
+
+            <div
+              className="col-8 firma_div"
+              style={{ color: "white",float:"left",marginTop:"3rem"}}
+              >
+              <Link className="firma_ismi" to="/" style={{ color: "darkblue", fontSize:"xx-large",textAlign:"center",align:"center",margin:"auto",display:"block"}}>
+                <b>SAMSUN SAĞLAM PROFESYONEL TEMİZLİK</b>
+              </Link>
+            </div>
 
 
           
-          <div className="col-8 mt-5" style={{display:'flex', justifyContent:'flex-end',float:"right"}}>
-            <a
-              href="https://www.facebook.com/114979717021494?referrer=whatsapp"
-              style={{ float: "left"}}
-            >
-              <FacebookIcon className="icon" style={{ fontSize: 30,color:"darkblue" }} />
-            </a>
-            <a
-              href="https://instagram.com/samsun_profesyonel_temizlik?igshid=17n1ktbi5mrbk"
-              style={{ float: "left", textIndent: "10px",fontSize:"16px" }}
-            >
-              <InstagramIcon className="icon" style={{ fontSize: 30,color:"darkblue" }} />
-            </a>
-            <a
-              href="https://wa.me/+905432286396"
-              style={{ float: "left", textIndent: "10px",fontSize:"16px" }}
-            >
-              <WhatsAppIcon className="icon" style={{ fontSize: 30,color:"darkblue" }}/>
-            </a>
-            <a
-              href="tel: +905432286396"
-              style={{ float: "left", textIndent: "10px",fontSize:"16px" }}
-            >
-              <SettingsPhoneIcon className="icon" style={{ fontSize: 30,color:"darkblue" }}/>
-            </a>
-          </div>
+            <div className="col-2 medya-div" style={{display:'flex', justifyContent:'flex-end',float:"right",marginTop:"3rem"}}>
+                 &nbsp;
+                  <a
+                    href="https://wa.me/+905432286396"
+                    style={{ float: "left",fontSize:"16px" }}
+                  >
+                    <WhatsAppIcon className="icon_top"/>
+                  </a>
+                  <a
+                    href="tel: +905432286396"
+                    style={{ float: "left", fontSize:"16px" }}
+                  >
+                    <SettingsPhoneIcon className="icon_top" />
+                  </a>
+            </div>
 
         </div>
       </div>

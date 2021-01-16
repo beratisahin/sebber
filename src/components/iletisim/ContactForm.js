@@ -3,7 +3,7 @@ import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 import "./Iletisim.css";
-import MailIcon from "@material-ui/icons/Mail";
+
 
 // Email validation
 const emailRegex = RegExp(
@@ -157,17 +157,17 @@ class ContactForm extends Component {
           }}
         >
           <div className="col-lg-8 col-md-8 col-sm-12 col-12 m-5">
-            <h2
+            <h2 className="iletisimegec"
               style={{
                 display: "flex",
                 justifyContent: "center",
                 color: "white",
               }}
             >
-              <MailIcon style={{ fontSize: 30, color: "white" }} /> BİZİMLE
-              İLETİŞİME GEÇEBİLİRSİNİZ
+               BİZİMLE İLETİŞİME GEÇEBİLİRSİNİZ
             </h2>
             <p
+              className="yardımcı"
               style={{
                 display: "flex",
                 justifyContent: "center",
@@ -179,7 +179,7 @@ class ContactForm extends Component {
             </p>
             <form id="contact-form" onSubmit={this.handleSubmit} noValidate>
               <div className="row m-5 p-1">
-                <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div className="col-12">
                   <input
                     type="text"
                     name="name"
@@ -196,7 +196,7 @@ class ContactForm extends Component {
                   )}
                 </div>
 
-                <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div className="col-12 mt-2">
                   <input
                     type="email"
                     name="email"
@@ -212,10 +212,8 @@ class ContactForm extends Component {
                     <span className="errorMessage">{formErrors.email}</span>
                   )}
                 </div>
-              </div>
-
-              <div className="row m-5">
-                <div className="col-12">
+          
+                <div className="col-12 mt-2">
                   <input
                     type="subject"
                     name="subject"
@@ -232,7 +230,7 @@ class ContactForm extends Component {
                   )}
                 </div>
 
-                <div className="col-12 mt-5">
+                <div className="col-12 mt-2">
                   <textarea
                     rows="5"
                     name="message"
@@ -259,7 +257,7 @@ class ContactForm extends Component {
                     type="submit"
                     style={{ width: "100%" }}
                   >
-                    Gönder
+                    <span style={{textAlign:"center",margin:"auto",fontWeight:"bold",marginLeft:"-0.5rem"}}>Gönder</span>
                   </button>
                 </div>
               </div>
