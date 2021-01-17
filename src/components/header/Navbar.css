@@ -38,6 +38,12 @@
   .dropdown-menu{
     background-color: #4682B4 !important;
   }
+  .dropdown-toggle{
+    font-size: medium !important;
+  }
+  .menu-item-link2{
+    font-size: medium !important;
+  }
   
 }
 

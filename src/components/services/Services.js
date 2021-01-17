@@ -14,7 +14,7 @@ export default class Services extends Component {
                                 <p class="card-title" style={{color:"darkblue",fontSize:"large",marginTop:"1rem"}}>{title}</p>
                                 <p class="card-text" style={{fontSize:"small",textAlign:"justify"}}>{text}</p>
                                 
-                                <a class="btn btn-primary buton" style={{marginBottom:"-5rem"}} ><Link className="more" to={divert} style={{color:"white",fontSize:"medium"}}>Daha Fazla Bilgi</Link></a>
+                                <a class="btn btn-primary buton" ><Link className="more" to={divert} style={{color:"white",fontSize:"medium"}}>Daha Fazla Bilgi</Link></a>
 
                         </div>
 

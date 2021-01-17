@@ -113,24 +113,28 @@ export default class Foooter extends Component {
             </p>
             <a
               href="https://www.facebook.com/114979717021494?referrer=whatsapp"
+              target="_blank"
               style={{ float: "left" }}
             >
               <FacebookIcon className="icon" style={{fontSize:"24px"}}/>
             </a>
             <a
               href="https://instagram.com/samsun_profesyonel_temizlik?igshid=17n1ktbi5mrbk"
+              target="_blank"
               style={{ float: "left", textIndent: "10px" }}
             >
               <InstagramIcon className="icon" style={{fontSize:"24px"}}/>
             </a>
             <a
               href="https://wa.me/+905432286396"
+              target="_blank"
               style={{ float: "left", textIndent: "10px" }}
             >
               <WhatsAppIcon className="icon" style={{fontSize:"24px"}}/>
             </a>
             <a
               href="tel: +905432286396"
+              target="_blank"
               style={{ float: "left", textIndent: "10px" }}
             >
               <SettingsPhoneIcon className="icon" style={{fontSize:"24px"}} />

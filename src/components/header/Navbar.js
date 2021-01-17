@@ -1,6 +1,11 @@
 import "./Navbar.css";
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import BusinessIcon from '@material-ui/icons/Business';
+import HouseIcon from '@material-ui/icons/House';
+import PlaylistAddCheckIcon from '@material-ui/icons/PlaylistAddCheck';
+import CameraAltIcon from '@material-ui/icons/CameraAlt';
+import ContactMailIcon from '@material-ui/icons/ContactMail';
 
 export default class Navbar extends Component {
   render() {
@@ -25,10 +30,11 @@ export default class Navbar extends Component {
             aria-controls="navbarNavDropdown"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            style={{marginRight:"1rem"}}
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown" style={{marginRight:"2rem"}}>
             <ul class="navbar-nav" style={{float:"right"}}>
               <li class="nav-item dropdown">
                 <a
@@ -42,7 +48,7 @@ export default class Navbar extends Component {
                   aria-expanded="false"
 
                 >
-                  KURUMSAL
+                 <BusinessIcon style={{fontSize:"large"}}/>&nbsp; KURUMSAL
                 </a>
                 &nbsp;
                 
@@ -85,7 +91,7 @@ export default class Navbar extends Component {
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  HİZMETLERİMİZ
+                  <HouseIcon style={{fontSize:"large"}}/>&nbsp;  HİZMETLERİMİZ
                 </a>
                 &nbsp;
                 
@@ -131,21 +137,21 @@ export default class Navbar extends Component {
               
               <li class="nav-item">
                 <Link className="nav-link menu-item-link2" to="/calisma-prensibimiz" style={{ color: "#fff", fontSize: "20px" }}>
-                  ÇALIŞMA PRENSİBİMİZ
+                  <PlaylistAddCheckIcon style={{fontSize:"large"}}/>&nbsp;  ÇALIŞMA PRENSİBİMİZ
                 </Link>
               </li>
               &nbsp;
               
               <li class="nav-item">
                 <Link className="nav-link menu-item-link2" to="/galeri" style={{ color: "#fff", fontSize: "20px" }}>
-                  GALERİ
+                  <CameraAltIcon style={{fontSize:"large"}}/>&nbsp; GALERİ
                 </Link>
               </li>
               &nbsp;
               
               <li class="nav-item">
                 <Link className="nav-link menu-item-link2" to="/iletisim" style={{ color: "#fff", fontSize: "20px" }}>
-                  İLETİŞİM
+                 <ContactMailIcon style={{fontSize:"large"}}/>&nbsp; İLETİŞİM
                 </Link>
               </li>
             </ul>

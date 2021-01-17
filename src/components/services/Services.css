@@ -16,9 +16,10 @@
     }
     .card-title{
         font-size: medium !important;
+        font-weight: bold !important;
     }
     .card-text{
-        font-size: smaller !important;
+        font-size: small !important;
     }
     .buton{
         width:15rem !important;

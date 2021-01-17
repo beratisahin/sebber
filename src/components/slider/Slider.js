@@ -1,7 +1,7 @@
 import './Slider.css';
 import house from './home.jpg';
 import armchair from './armchair.jpg';
-import upstair from './disenfection.jpg';
+import school from "./okultem.jpg";
 import office from './dormitory.jpg';
 import React, { Component } from 'react'
 
@@ -22,7 +22,7 @@ export default class Slider extends Component {
                             <h4 style={{display:"flex", justifyContent:"center",textAlign:"center"}}>Kurumsallık</h4>
                         </div>
                         <div className="carousel-item">
-                            <img src={upstair} className="d-block img-responsive w-100 slidephoto" title="merdiven temizliği" alt="logo" style={{height:"40rem"}}></img>
+                            <img src={school} className="d-block img-responsive w-100 slidephoto" title="merdiven temizliği" alt="logo" style={{height:"40rem"}}></img>
                             <h4 style={{display:"flex", justifyContent:"center",textAlign:"center"}}>Mükemmellik</h4>
                         </div>
                         <div className="carousel-item">

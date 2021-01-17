@@ -9,6 +9,10 @@
 .icon_top:hover{
     color:  darkblue !important;
 }
+.firma_ismi{
+    text-decoration: none !important;
+
+}
 .firma_ismi:hover{
     
     text-decoration: none !important;

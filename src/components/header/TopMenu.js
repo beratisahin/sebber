@@ -42,12 +42,14 @@ export default class TopMenu extends Component {
                  &nbsp;
                   <a
                     href="https://wa.me/+905432286396"
+                    target="_blank"
                     style={{ float: "left",fontSize:"16px" }}
                   >
                     <WhatsAppIcon className="icon_top"/>
                   </a>
                   <a
                     href="tel: +905432286396"
+                    target="_blank"
                     style={{ float: "left", fontSize:"16px" }}
                   >
                     <SettingsPhoneIcon className="icon_top" />
