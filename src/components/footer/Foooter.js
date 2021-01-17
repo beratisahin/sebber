@@ -148,7 +148,7 @@ export default class Foooter extends Component {
                 <EmailIcon style={{fontSize:"24px"}}/>
               </a>
               &nbsp;
-              saglamprofesyoneltemizlik@gmail.com
+              samsunprofesyoneltemizlik55@gmail.com
             </p>
             <p style={{ color:"#4682B4", fontSize: "14px", textAlign: "left" }}>
               {" "}
