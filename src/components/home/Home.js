@@ -35,25 +35,27 @@ function Home() {
           <Services
             photo={p2}
             title="Ofis Temizliği"
-            text="Ofis ortamı gibi toplu çalışma alanlarında hijyenin ve sağlığın ne kadar önemli olduğunun farkındayız ve elimizden geleni yapıyoruz..."
+            text="Ofis ortamı gibi toplu çalışma alanlarında hijyen ile sağlığın ne kadar önemli olduğunu biliyor, müşterilere en güzel hizmeti sağlıyoruz..."
             divert="/ofis-temizligi"
           />
         </div>
 
         <div className="col-lg-4 col-md-6 col-sm-12 col-12">
           <Services
-            photo={p3}
-            title="Ev Temizliği"
-            text="Evde temizlik yapmak için zaman ve imkan bulamayan müşterilerimize titiz ve noksansız bir şekilde ev temizliği hizmeti sunmaktayız..."
-            divert="/ev-temizligi"
+            photo={p6}
+            title="Halı Yıkama"
+            text="Çocuklar ve bebeklerin üzerinde oynadığı, en çok bakteri barındıran alanların başında olan halılar ve kilimlerin hijyenini sağlamaktayız..."
+            divert="/hali-yikama"
           />
         </div>
+
+       
 
         <div className="col-lg-4 col-md-6 col-sm-12 col-12">
           <Services
             photo={p4}
             title="Hamaliye Temini"
-            text="Evden eve nakliyat ve küçük çaplı eşya taşıma işlemleriniz için personel talebinde bulunup nakliyat işlemlerinizi çözüme kavuştururuz..."
+            text="Evden eve nakliyat ve küçük çaplı eşya taşıma işlemlerinizde, eşyalara zarar vermeden güvenle taşır istenilen yere zamanında ulaştırırız..."
             divert="/hamaliye-temini"
           />
         </div>
@@ -62,25 +64,27 @@ function Home() {
           <Services
             photo={p5}
             title="Koltuk Yıkama"
-            text="Evinizde bulunan koltuk takımı ya da araç koltuklarınızı yerinde detaylı bir şekilde temizleyip ilk günki kondisyonuna dönüştürüyoruz..."
+            text="Evinizde bulunan oturma takımları veya araç koltuklarını yerinde detaylıca temizleyip yeni alınmış gibi tertemiz bir hale dönüştürüyoruz..."
             divert="/yerinde-koltuk-yikama"
           />
         </div>
 
         <div className="col-lg-4 col-md-6 col-sm-12 col-12">
           <Services
-            photo={p6}
-            title="Halı Yıkama"
-            text="Çocukların ve bebeklerin üzerinde oynadığı ve en çok bakteri barındıran alanların başında olan halılarınızın hijyeni sağlamaktayız..."
-            divert="/hali-yikama"
+            photo={p3}
+            title="Ev Temizliği"
+            text="Evde temizlik yapmak için zaman ve imkan bulamayan müşterilerimize ayrıntılı temizlik hizmetini sizleri memnun edecek şekilde sağlıyoruz..."
+            divert="/ev-temizligi"
           />
         </div>
+
+        
 
         <div className="col-lg-4 col-md-6 col-sm-12 col-12">
           <Services
             photo={p7}
             title="Merdiven Temizliği"
-            text="Toplu olarak yaşanılan apartmanlarınızda, sitelerinizde merdiven ve korkuluk temizliği uzman ekiplerimiz tarafından sağlanmaktadır..."
+            text="Topluca yaşanılan apartman, okul, yurt, ofis gibi yerlerde bulunan merdiven, korkuluk ve asansör temizliğini titiz şekilde sağlamaktayız..."
             divert="/merdiven-temizligi"
           />
         </div>
@@ -89,7 +93,7 @@ function Home() {
           <Services
             photo={p8}
             title="Yurt Temizliği"
-            text="Öğrencilerimizin kaldığı yurt, pansiyon, okul gibi alanlarda en iyi şekilde hijyen koşullarını yerine getirip hizmet sağlamaktayız..."
+            text="Öğrencilerimizin kaldığı yurt, pansiyon, okul gibi alanlarda en iyi şekilde hijyen koşullarını yerine getirip güzel hizmet sağlamaktayız..."
             divert="/yurt-cami-temizligi"
           />
         </div>
@@ -98,7 +102,7 @@ function Home() {
           <Services
             photo={p9}
             title="İnşaat Sonrası Temizlik"
-            text="İnşaat ya da tadilat sonrası oluşabilecek kaba ya da ince her türlü temizliği ekiplerimiz tarafından titizlikle gerçekleştiriyoruz..."
+            text="İnşaat ya da tadilat sonrası oluşabilecek kaba ya da ince her türlü temizlik ekiplerimiz tarafından ayrıntılı bir şekilde sağlanmaktadır..."
             divert="/insaat-sonrasi-temizlik"
           />
         </div>

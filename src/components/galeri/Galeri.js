@@ -25,7 +25,7 @@ function Galeri() {
             </div>
             
             <div className="col-lg-4 col-md-6 col-sm-12 col-12" >
-                    <img src={"https://drive.google.com/uc?export=view&id=1dblwNw5EDtjD1YoPaeVQRn9zJ39QP8HF"} className="d-block img-responsive w-100 galpho" alt="Türk-Çin Derneği" ></img>
+                    <img src={"https://drive.google.com/uc?export=view&id=1G2LoSFoGmciPTQkPv9SXxoG74lIv7wpL"} className="d-block img-responsive w-100 galpho" alt="Türk-Çin Derneği" ></img>
             </div>
             
             <div className="col-lg-4 col-md-6 col-sm-12 col-12" >
