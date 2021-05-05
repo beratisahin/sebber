@@ -6,7 +6,12 @@ import EmailIcon from "@material-ui/icons/Email";
 import HomeIcon from "@material-ui/icons/Home";
 import SettingsPhoneIcon from "@material-ui/icons/SettingsPhone";
 import logo from "./saglamlogo.jpg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from "react-router-dom";
+import PhoneIcon from '@material-ui/icons/Phone';
+
+
+
 
 import React, { Component } from "react";
 
@@ -148,7 +153,7 @@ export default class Foooter extends Component {
                 <EmailIcon style={{fontSize:"24px"}}/>
               </a>
               &nbsp;
-              samsunprofesyoneltemizlik55@gmail.com
+              samsunprofesyoneltemizlik55@gmail.com  
             </p>
             <p style={{ color:"#4682B4", fontSize: "14px", textAlign: "left" }}>
               {" "}
@@ -156,7 +161,7 @@ export default class Foooter extends Component {
                 <SettingsPhoneIcon style={{fontSize:"24px"}}/>
               </a>
               &nbsp;
-              0543 228 63 96
+              0543 228 63 96  <FontAwesomeIcon icon="coffee" size="lg" />
             </p>
             <p style={{ color:"#4682B4", fontSize: "14px", textAlign: "left" }}>
               
@@ -165,6 +170,8 @@ export default class Foooter extends Component {
               </a>
               &nbsp;
               Yenidoğan Mahallesi Akagündüz Caddesi <br/> İlkadım / Samsun{" "}
+
+             
             </p>
           </div>
           <div className="col-12">
@@ -177,6 +184,35 @@ export default class Foooter extends Component {
                             <p style={{fontSize:"12px",color:"black",paddingRight:"1rem",float:"right",textAlign:"right"}}> ®Se<b>B</b>er Tech</p>
                     </div>
           </div>
+
+          <div className="roof-phone">
+                <a
+                    href="tel: +905432286396"
+                    className="phone_float"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    
+                    
+                    <PhoneIcon className="phone-icon"/>
+                  
+                </a>
+            </div>
+
+            
+
+            <div className="roof-whatsapp">
+                <a
+                    href="https://wa.me/+905432286396"
+                    className="whatsapp_float"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    
+                    <WhatsAppIcon className="whatsapp-icon"/>
+                  
+                </a>
+            </div>
 
         </div>
 

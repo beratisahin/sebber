@@ -7,6 +7,7 @@ import PlaylistAddCheckIcon from '@material-ui/icons/PlaylistAddCheck';
 import CameraAltIcon from '@material-ui/icons/CameraAlt';
 import ContactMailIcon from '@material-ui/icons/ContactMail';
 
+
 export default class Navbar extends Component {
   render() {
     return (

@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import SPT from "./SPT.png";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import SettingsPhoneIcon from "@material-ui/icons/SettingsPhone";
-import "./TopMenu.css"
+import "./TopMenu.css";
+import AccessTimeIcon from '@material-ui/icons/AccessTime';
 
 export default class TopMenu extends Component {
   render() {
@@ -40,20 +41,11 @@ export default class TopMenu extends Component {
           
             <div className="col-2 medya-div" style={{display:'flex', justifyContent:'flex-end',float:"right",marginTop:"3rem"}}>
                  &nbsp;
-                  <a
-                    href="https://wa.me/+905432286396"
-                    target="_blank"
-                    style={{ float: "left",fontSize:"16px" }}
-                  >
-                    <WhatsAppIcon className="icon_top"/>
-                  </a>
-                  <a
-                    href="tel: +905432286396"
-                    target="_blank"
-                    style={{ float: "left", fontSize:"16px" }}
-                  >
-                    <SettingsPhoneIcon className="icon_top" />
-                  </a>
+                 
+                    <AccessTimeIcon className="icon_top"/>
+                    <p style={{fontSize:"large",marginLeft:"3px"}}>7/24</p>
+                  
+                  
             </div>
 
         </div>
