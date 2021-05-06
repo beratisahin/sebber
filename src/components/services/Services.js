@@ -1,8 +1,10 @@
 import './Services.css';
 import { Link } from "react-router-dom";
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+
 
 export default class Services extends Component {
+      
     render() {
            //Destructing
            const {photo,title,text,divert}=this.props;

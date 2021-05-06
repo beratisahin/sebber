@@ -3,6 +3,8 @@ import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 import "./Iletisim.css";
+import useDocumentTitle from '../../useDocumentTitle';
+
 
 
 // Email validation

@@ -1,8 +1,10 @@
 
 import "./Galeri.css";
-import React from 'react'
+import React from 'react';
+import useDocumentTitle from '../../useDocumentTitle';
 
 function Galeri() {
+        useDocumentTitle('Galeri - Samsun Profesyonel Temizlik');
     return (
         <div className="row mr-4" style={{marginLeft:"10px"}} >
         <div style={{marginTop:"10px",marginBottom:"10px",justifyContent:"flex-end !important"}}>

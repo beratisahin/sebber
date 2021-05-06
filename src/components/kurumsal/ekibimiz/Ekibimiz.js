@@ -1,9 +1,11 @@
 import mr from "./st_mr.jpg";
 import mrs from "./st_mrs.jpg";
 import './ekibimiz.css';
-import React from 'react'
+import React from 'react';
+import useDocumentTitle from '../../../useDocumentTitle';
 
 function Ekibimiz() {
+    useDocumentTitle('Ekibimiz - Samsun Profesyonel Temizlik');
     return (
         <div className="row mr-4" style={{marginLeft:"10px"}} >
         <div style={{marginTop:"10px",marginBottom:"10px",justifyContent:"flex-end !important"}}>

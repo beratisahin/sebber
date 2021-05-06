@@ -1,7 +1,9 @@
 import './sss.css';
-import React from 'react'
+import React from 'react';
+import useDocumentTitle from '../../../useDocumentTitle';
 
 function Sss() {
+    useDocumentTitle('Sıkça Sorulan Sorular - Samsun Profesyonel Temizlik');
     return (
         
         <div class="row" style={{border:"2px dotted white",justify: "center",margin:"20px",minHeight:"30rem"}}>

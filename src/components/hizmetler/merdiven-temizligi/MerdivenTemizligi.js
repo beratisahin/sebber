@@ -1,7 +1,9 @@
 import Merdiven from './merdiven.jpg';
-import React from 'react'
+import React from 'react';
+import useDocumentTitle from '../../../useDocumentTitle';
 
 function MerdivenTemizligi() {
+    useDocumentTitle('Merdiven Temizliği - Samsun Profesyonel Temizlik');
     return (
         <div className="col-12">
             <div className="card m-4" style={{align:"center",backgroundColor:"#f8f7fb",borderRadius:"5px"}}>

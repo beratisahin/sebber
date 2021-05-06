@@ -5,9 +5,11 @@ import g3 from '../galeri/galeri3.jpg';
 import g4 from '../galeri/galeri4.jpg';
 import g5 from '../galeri/galeri5.jpg';
 import g6 from '../galeri/galeri6.jpg';
-import React from 'react'
+import React from 'react';
+import useDocumentTitle from '../../useDocumentTitle';
 
 function CalismaPrensibimiz() {
+    useDocumentTitle('Çalışma Prensibimiz - Samsun Profesyonel Temizlik');
     return (
         <div className="row mr-4" style={{marginLeft:"10px"}} >
         <div style={{marginTop:"10px",marginBottom:"10px",justifyContent:"flex-end !important"}}>

@@ -1,7 +1,9 @@
 import Insaat from './insaat.jpg';
-import React from 'react'
+import React from 'react';
+import useDocumentTitle from '../../../useDocumentTitle';
 
 function InsaatSonrasiTemizlik() {
+    useDocumentTitle('İnşaat Sonrası Temizlik - Samsun Profesyonel Temizlik');
     return (
         <div className="col-12">
             <div className="card m-4" style={{align:"center",backgroundColor:"#f8f7fb",borderRadius:"5px"}}>
