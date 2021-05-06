@@ -31,7 +31,7 @@ ul li {
       position: fixed;
       width: 50px;
       height: 50px;
-      bottom: 45px;
+      bottom: 50px;
       right: 30px;
       background-color: #25d366;
       color: #FFF;
@@ -45,7 +45,7 @@ ul li {
   .roof-whatsapp{
     background-color:green ;
     position: fixed;
-    bottom: 40px;
+    bottom: 45px;
     right: 25px;
     width: 60px;
     height: 60px;
