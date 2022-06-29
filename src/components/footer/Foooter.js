@@ -131,14 +131,14 @@ export default class Foooter extends Component {
               <InstagramIcon className="icon" style={{fontSize:"24px"}}/>
             </a>
             <a
-              href="https://wa.me/+905432286396"
+              href="https://wa.me/+905550512755"
               target="_blank"
               style={{ float: "left", textIndent: "10px" }}
             >
               <WhatsAppIcon className="icon" style={{fontSize:"24px"}}/>
             </a>
             <a
-              href="tel: +905432286396"
+              href="tel: +905550512755"
               target="_blank"
               style={{ float: "left", textIndent: "10px" }}
             >
@@ -161,7 +161,7 @@ export default class Foooter extends Component {
                 <SettingsPhoneIcon style={{fontSize:"24px"}}/>
               </a>
               &nbsp;
-              0543 228 63 96  <FontAwesomeIcon icon="coffee" size="lg" />
+              0555 051 27 55  <FontAwesomeIcon icon="coffee" size="lg" />
             </p>
             <p style={{ color:"#4682B4", fontSize: "14px", textAlign: "left" }}>
               
@@ -187,7 +187,7 @@ export default class Foooter extends Component {
 
           <div className="roof-phone">
                 <a
-                    href="tel: +905432286396"
+                    href="tel: +905550512755"
                     className="phone_float"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -203,7 +203,7 @@ export default class Foooter extends Component {
 
             <div className="roof-whatsapp">
                 <a
-                    href="https://wa.me/+905432286396"
+                    href="https://wa.me/+905550512755"
                     className="whatsapp_float"
                     target="_blank"
                     rel="noopener noreferrer"
