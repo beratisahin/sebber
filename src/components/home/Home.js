@@ -109,7 +109,7 @@ function Home() {
       </div>
 
       <div className="col-12 harita" style={{}}>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95924.8028124052!2d36.24634229383076!3d41.29471932411066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4088772262f7e4a3%3A0xd09e9ce83154453d!2sSamsun%20Temizlik%20%C5%9Eirketleri%20-%20Samsun%20Profesyonel%20Temizlik!5e0!3m2!1str!2str!4v1610804726575!5m2!1str!2str" 
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3389.9270380524345!2d36.32920287420999!3d41.27939518919926!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd09e9ce83154453d!2sSamsun%20Temizlik%20%C5%9Eirketleri%20-%20Samsun%20Profesyonel%20Temizlik!5e0!3m2!1str!2str!4v1656524621228!5m2!1str!2str" 
                 className="googleharita" style={{width:"100%", height:"45rem", frameBorder:"0", allowFullScreen:"", ariaHidden:"false", tabIndex:"0",border:"2px darkblue solid",paddingBottom:"0.5rem",paddingTop:"0.5rem"}}> </iframe>
             </div> 
 
